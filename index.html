@@ -2,75 +2,343 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>HealthSLM-Bench</title>
+  <title>HealthSLM-Bench: Benchmarking Small Language Models for On-device Healthcare Monitoring</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
+    :root {
+      --bg-start: #f8fafc;
+      --bg-end: #edf1f5;
+      --card-bg: #ffffff;
+      --text-main: #111827;
+      --text-muted: #4b5563;
+      --accent: #0f766e;
+      --accent-soft: #ecfdf5;
+      --border-subtle: #e5e7eb;
+      --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.08);
+      --radius-xl: 24px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      padding: 32px 16px;
-      font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-
-      /* ⭐️ 极淡渐变背景（方案 C）⭐️ */
-      background: linear-gradient(
-        180deg,
-        #fafcfc 0%,
-        #f4f7f6 100%
-      );
+      padding: 32px 16px 40px;
+      font-family: -apple-system, BlinkMacSystemFont, system-ui, -apple-system, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, var(--bg-start) 0%, var(--bg-end) 100%);
+      color: var(--text-main);
     }
 
     .page {
-      max-width: 960px;
+      max-width: 1080px;
       margin: 0 auto;
-      background: #ffffff;
-      border-radius: 24px;
-      padding: 40px 36px 48px;
-      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+      background: var(--card-bg);
+      border-radius: var(--radius-xl);
+      padding: 40px 32px 36px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    @media (min-width: 900px) {
+      .page {
+        padding: 48px 44px 44px;
+      }
     }
 
     h1 {
+      margin: 0 0 10px;
       text-align: center;
-      margin-bottom: 8px;
-      font-size: 2rem;
-      font-weight: 700;
+      font-size: clamp(2.1rem, 3vw, 2.6rem);
+      letter-spacing: -0.03em;
     }
 
     .subtitle {
       text-align: center;
-      color: #4b5563;
+      color: var(--text-muted);
+      font-size: 1.02rem;
+      margin-bottom: 20px;
+    }
+
+    .authors {
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 4px;
+      font-size: 0.98rem;
+    }
+
+    .affiliations {
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-bottom: 18px;
+    }
+
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
       margin-bottom: 24px;
+    }
+
+    .meta-pill {
+      background: #f3f4f6;
+      border-radius: 999px;
+      padding: 6px 12px;
+    }
+
+    .btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .btn {
+      padding: 9px 18px;
+      border-radius: 999px;
+      border: 1px solid rgba(15, 23, 42, 0.08);
+      background: #f9fafb;
+      font-size: 0.9rem;
+      cursor: pointer;
+      text-decoration: none;
+      color: var(--text-main);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 10px rgba(15, 23, 42, 0.06);
+      transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.08s ease;
+    }
+
+    .btn.primary {
+      background: var(--accent);
+      color: #ecfdf5;
+      border-color: rgba(15, 118, 110, 0.3);
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+      background: #f3f4f6;
+    }
+
+    .btn.primary:hover {
+      background: #115e59;
+    }
+
+    .btn span.icon {
+      font-size: 1rem;
+      line-height: 1;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr);
+      gap: 22px;
+    }
+
+    @media (min-width: 900px) {
+      .layout {
+        grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+      }
+    }
+
+    .card {
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-subtle);
+      padding: 18px 18px 20px;
+      background: #ffffff;
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
       font-size: 1.05rem;
     }
 
-    p, li {
-      color: #374151;
+    .card p {
+      margin: 0;
+      font-size: 0.92rem;
       line-height: 1.6;
-      font-size: 0.96rem;
+      color: var(--text-muted);
+    }
+
+    .abstract-card {
+      border-left: 4px solid var(--accent);
+    }
+
+    .section-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+      font-size: 0.8rem;
+    }
+
+    .badge {
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #eff6ff;
+      color: #1d4ed8;
+    }
+
+    .pill-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    @media (min-width: 600px) {
+      .pill-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    .pill-item {
+      padding: 8px 10px;
+      border-radius: 999px;
+      background: #f3f4f6;
+      font-size: 0.82rem;
+      color: #374151;
+    }
+
+    .secondary-card {
+      background: #f9fafb;
+    }
+
+    .tl-card {
+      background: var(--accent-soft);
+      border-color: rgba(16, 185, 129, 0.35);
+    }
+
+    .footer {
+      margin-top: 26px;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-align: center;
     }
   </style>
 </head>
 <body>
   <main class="page">
-    <h1>HealthSLM-Bench</h1>
+    <header>
+      <h1>HealthSLM-Bench: Benchmarking Small Language Models for On-device Healthcare Monitoring</h1>
+      <div class="subtitle">
+        Benchmarking Small Language Models (SLMs) for mobile and wearable healthcare monitoring with
+        on-device deployment.
+      </div>
 
-    <div class="subtitle">
-      A benchmark for evaluating small language models on health monitoring tasks.
-    </div>
+      <div class="authors">
+        Xin Wang, Ting Dang, Xinyu Zhang, Vassilis Kostakos, Michael J. Witbrock, Hong Jia
+      </div>
+      <div class="affiliations">
+        The University of Melbourne · The University of Auckland
+      </div>
 
-    <p>
-      This is the project page for <strong>HealthSLM-Bench</strong>. Here we will later add:
-    </p>
+      <div class="meta-row">
+        <div class="meta-pill">📅 20 Sept 2025 (last updated: 12 Nov 2025)</div>
+        <div class="meta-pill">📄 ICLR 2026 Conference · Withdrawn Submission</div>
+        <div class="meta-pill">🔍 Primary area: datasets and benchmarks</div>
+      </div>
 
-    <ul>
-      <li>Paper link (arXiv / conference)</li>
-      <li>GitHub repository and documentation</li>
-      <li>Dataset and evaluation details</li>
-      <li>Experimental results and figures</li>
-    </ul>
+      <div class="btn-row">
+        <a class="btn primary" href="https://github.com/a1789591/HealthSLM-Bench" target="_blank">
+          <span class="icon">🧬</span>
+          <span>GitHub Code</span>
+        </a>
+        <a class="btn" href="#" target="_blank">
+          <span class="icon">📄</span>
+          <span>arXiv (coming soon)</span>
+        </a>
+        <a class="btn" href="#" target="_blank">
+          <span class="icon">🤗</span>
+          <span>Hugging Face (coming soon)</span>
+        </a>
+      </div>
+    </header>
 
-    <p>
-      For now, this is just a minimal landing page to make sure GitHub Pages works.
-    </p>
+    <section class="layout">
+      <!-- Left: Abstract -->
+      <article class="card abstract-card">
+        <div class="section-label">Abstract</div>
+        <p>
+          On-device healthcare monitoring play a vital role in facilitating timely interventions,
+          managing chronic health conditions, and ultimately improving individuals’ quality of life.
+          Previous studies on large language models (LLMs) have highlighted their impressive
+          generalization abilities and effectiveness in healthcare prediction tasks. However, most
+          LLM-based healthcare solutions are cloud-based, which raises significant privacy concerns
+          and results in increased memory usage and latency. To address these challenges, there is
+          growing interest in compact models, Small Language Models (SLMs), which are lightweight
+          and designed to run locally and efficiently on mobile and wearable devices. Nevertheless,
+          how well these models perform in healthcare prediction remains largely unexplored.
+        </p>
+        <p>
+          We systematically evaluated SLMs on health prediction tasks using zero-shot, few-shot, and
+          instruction fine-tuning approaches, and deployed the best performing fine-tuned SLMs on
+          mobile devices to evaluate their real-world efficiency and predictive performance in
+          practical healthcare scenarios. Our results show that SLMs can achieve performance
+          comparable to LLMs while offering substantial gains in efficiency, reaching up to 17×
+          lower latency and 16× faster inference speed on mobile platforms. However, challenges
+          remain, particularly in handling class imbalance and few-shot scenarios. These findings
+          highlight SLMs, though imperfect in their current form, as a promising solution for
+          next-generation, privacy-preserving healthcare monitoring.
+        </p>
+      </article>
 
+      <!-- Right: TLDR + Keywords etc -->
+      <aside class="side">
+        <div class="card tl-card">
+          <div class="section-label">TL;DR</div>
+          <p>
+            This paper benchmarks Small Language Models (SLMs) for mobile health applications,
+            demonstrating efficient, privacy-preserving predictions on wearable devices with
+            performance comparable to larger language models (LLMs) in health task predictions.
+          </p>
+        </div>
+
+        <div class="card secondary-card" style="margin-top: 14px;">
+          <div class="section-label">Keywords</div>
+          <div class="pill-list">
+            <div class="pill-item">Small Language Models (SLMs)</div>
+            <div class="pill-item">Mobile Health</div>
+            <div class="pill-item">On-device LLMs</div>
+            <div class="pill-item">Wearable Sensing</div>
+          </div>
+        </div>
+
+        <div class="card secondary-card" style="margin-top: 14px;">
+          <div class="section-label">Highlights</div>
+          <ul style="margin: 6px 0 0; padding-left: 20px; font-size: 0.9rem; color: #374151;">
+            <li>Systematic benchmark of SLMs on mobile & wearable health prediction tasks.</li>
+            <li>Zero-shot, few-shot, and instruction-tuned SLM settings.</li>
+            <li>On-device deployment and efficiency evaluation on mobile hardware.</li>
+            <li>
+              Up to 17× lower latency and 16× faster inference than LLMs, with comparable
+              performance.
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      This page is a lightweight project website for <strong>HealthSLM-Bench</strong>. Links to the
+      final paper and models will be updated as they become available.
+    </footer>
   </main>
 </body>
 </html>
