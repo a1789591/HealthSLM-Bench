@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>HealthSLM-Bench</title>
+
 <style>
     body {
         margin: 0;
@@ -10,45 +11,93 @@
         background: #f2f4f7;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
+
     .container {
         max-width: 900px;
         margin: 40px auto;
         background: white;
         padding: 40px 50px;
         border-radius: 16px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.06);
     }
+
     h1 {
+        margin-bottom: 6px;
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+
+    .subtitle {
+        font-size: 1.25rem;
+        color: #374151;
+        margin-bottom: 16px;
+    }
+
+    .authors {
+        font-size: 1.05rem;
         margin-bottom: 4px;
     }
-    h2 {
-        margin-top: 30px;
+
+    .affiliations {
+        color: #555;
+        font-size: 0.95rem;
+        margin-bottom: 14px;
+        line-height: 1.5;
     }
-    .subtitle {
-        font-size: 1.2rem;
-        color: #374151;
-        margin-bottom: 12px;
-    }
-    .authors {
-        font-style: italic;
-        color: #444;
-        margin-bottom: 10px;
-    }
+
     .meta {
         color: #555;
         font-size: 0.95rem;
-        margin-bottom: 16px;
+        margin-bottom: 20px;
     }
-    a { color: #1d4ed8; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+
+    hr {
+        border: none;
+        border-top: 1px solid #e5e7eb;
+        margin: 30px 0;
+    }
+
+    /* ------------ Buttons (dark style like screenshot #2) ------------ */
+    .btn-row {
+        display: flex;
+        gap: 16px;
+        margin: 18px 0 28px 0;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #111827;
+        color: white;
+        padding: 14px 22px;
+        border-radius: 14px;
+        font-size: 1.05rem;
+        text-decoration: none;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        transition: 0.2s;
+    }
+
+    .btn:hover {
+        background: #1f2937;
+        transform: translateY(-2px);
+    }
+
+    .btn img {
+        height: 20px;
+        width: 20px;
+    }
+
+    /* image box */
     .image-box {
         margin: 30px 0;
         text-align: center;
     }
     .image-box img {
         width: 100%;
-        border-radius: 10px;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
     }
 </style>
 </head>
@@ -63,21 +112,40 @@
 Xin Wang, Ting Dang, Xinyu Zhang, Vassilis Kostakos, Michael J. Witbrock, Hong Jia
 </div>
 
-<div class="meta">
+<div class="affiliations">
+University of Melbourne · University of Auckland  
+</div>
+
+<!-- <div class="meta">
 📅 <strong>Published:</strong> 12 Oct 2025  
 &ensp;·&ensp; <strong>Last Modified:</strong> 13 Nov 2025  
 <br>
 📁 <strong>GenAI4Health 2025 Poster</strong>
+</div> -->
+
+<div class="btn-row">
+
+    <a class="btn" href="https://arxiv.org/abs/2509.07260">
+        <img src="https://cdn-icons-png.flaticon.com/512/3389/3389081.png">
+        Paper
+    </a>
+
+    <a class="btn" href="https://github.com/a1789591/HealthSLM-Bench">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+        Code
+    </a>
+
+    <!-- <a class="btn" href="https://huggingface.co/your_model">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg">
+        Hugging Face
+    </a> -->
+
 </div>
 
-<p>
-🔗 <a href="https://github.com/a1789591/HealthSLM-Bench">Code</a>  
-&ensp;·&ensp; 📄 Paper (coming soon)
-</p>
-
-<hr style="margin: 30px 0;">
+<hr>
 
 <h2>Abstract</h2>
+
 <p>
 Mobile and wearable healthcare monitoring play a vital role in facilitating timely interventions,
 managing chronic health conditions, and ultimately improving individuals’ quality of life.
@@ -85,14 +153,10 @@ Previous studies on large language models (LLMs) have highlighted their impressi
 abilities and effectiveness in healthcare prediction tasks. However, most LLM-based healthcare
 solutions are cloud-based, raising significant privacy concerns and increasing memory usage
 and latency.
-</p>
-<p>
 To address these challenges, compact Small Language Models (SLMs) have emerged as an alternative.
 We systematically benchmarked SLMs on health prediction tasks using zero-shot, few-shot,
 and instruction-tuning settings, and deployed the best fine-tuned SLMs on mobile devices
 to evaluate real-world performance.
-</p>
-<p>
 Our results show that SLMs can achieve performance comparable to LLMs while offering substantial
 gains in efficiency—up to 17× lower latency and 16× faster inference on mobile platforms.
 Challenges remain in handling class imbalance and few-shot scenarios, highlighting SLMs
@@ -102,12 +166,11 @@ as a promising solution for next-generation, privacy-preserving healthcare monit
 <h2>Overview</h2>
 
 <div class="image-box">
-    <img src="overview.png" alt="Overview figure (replace with your own)">
+    <img src="overview.png" alt="Overview figure">
 </div>
 
 <p style="color:#666; font-size:0.9rem;">
-(Replace <code>overview.png</code> with your own figure.  
-Upload your image into the repository → use its raw URL here.)
+Upload your image to the repo → replace <code>overview.png</code>.
 </p>
 
 </div>
