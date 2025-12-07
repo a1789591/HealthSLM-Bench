@@ -83,6 +83,43 @@ h3::before {
         margin: 30px 0;
     }
 
+.bibtex-block {
+    background: #0f172a;            /* 深色背景(接近 Menta) */
+    color: #e2e8f0;                 /* 浅文字 */
+    padding: 20px 24px;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    position: relative;
+    overflow-x: auto;
+}
+
+.bibtex-block pre {
+    margin: 0;
+    font-family: Menlo, Monaco, "Courier New", monospace;
+    font-size: 14px;
+    white-space: pre;
+}
+
+/* Copy 按钮（右上角） */
+.bib-copy-btn {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: #e2e8f0;
+    color: #0f172a;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.bib-copy-btn:hover {
+    background: #cbd5e1;
+}
+
     /* ------------ Buttons (dark style like screenshot #2) ------------ */
     .btn-bar {
         display: flex;
@@ -233,8 +270,10 @@ Upload your image to the repo → replace <code>overview.png</code>.
 
 <p>If you find <strong>HealthSLM-Bench</strong> useful in your research, please cite it as:</p>
 
-<div class="bibtex-box">
-<pre>
+<div class="bibtex-block">
+    <button class="bib-copy-btn" onclick="copyBibtex()">Copy</button>
+
+<pre id="bibtex">
 @article{wang2025healthslm,
   title   = {HealthSLM-Bench: Benchmarking Small Language Models for Mobile and Wearable Healthcare Monitoring},
   author  = {Wang, Xin and Dang, Ting and Zhang, Xinyu and Kostakos, Vassilis and Witbrock, Michael J. and Jia, Hong},
@@ -244,7 +283,22 @@ Upload your image to the repo → replace <code>overview.png</code>.
 </pre>
 </div>
 
+
 </div>
+
+<script>
+function copyBibtex() {
+    const text = document.getElementById("bibtex").innerText;
+
+    navigator.clipboard.writeText(text).then(() => {
+        const btn = document.querySelector(".bib-copy-btn");
+        const old = btn.innerText;
+        btn.innerText = "Copied!";
+        setTimeout(() => btn.innerText = old, 1500);
+    });
+}
+</script>
+
 
 </body>
 </html>
