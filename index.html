@@ -58,35 +58,36 @@
     }
 
     /* ------------ Buttons (dark style like screenshot #2) ------------ */
-    .btn-row {
+    .btn-bar {
         display: flex;
-        gap: 16px;
-        margin: 18px 0 28px 0;
-        flex-wrap: wrap;
+        gap: 20px;
+        margin: 30px 0;
     }
-
+    
     .btn {
         display: flex;
         align-items: center;
         gap: 10px;
-        background: #111827;
+        background: #1e2532;
         color: white;
-        padding: 14px 22px;
-        border-radius: 14px;
-        font-size: 1.05rem;
+        padding: 14px 26px;
+        border-radius: 18px;
         text-decoration: none;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        transition: 0.2s;
+        font-size: 1.1rem;
+        font-weight: 500;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
-
-    .btn:hover {
-        background: #1f2937;
-        transform: translateY(-2px);
-    }
-
+    
     .btn img {
-        height: 20px;
-        width: 20px;
+        width: 22px;
+        height: 22px;
+        filter: brightness(0) invert(1); /* 全部变成白色 icon */
+    }
+    
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     }
 
     /* image box */
@@ -108,13 +109,29 @@
 
 <h1>HealthSLM-Bench: Benchmarking Small Language Models for Mobile and Wearable Healthcare Monitoring</h1>
 
+
 <div class="authors">
+    <span>Xin Wang<sup>1</sup>,</span>
+    <span>Ting Dang<sup>1</sup>,</span>
+    <span>Xinyu Zhang<sup>2</sup>,</span>
+    <span>Vassilis Kostakos<sup>1</sup>,</span>
+    <span>Michael Witbrock<sup>2</sup>,</span>
+    <span>Hong Jia<sup>2</sup></span>
+</div>
+
+<div class="affiliations">
+    <span><sup>1</sup> University of Melbourne</span><br>
+    <span><sup>2</sup> University of Auckland</span>
+</div>
+
+
+<!-- <div class="authors">
 Xin Wang, Ting Dang, Xinyu Zhang, Vassilis Kostakos, Michael J. Witbrock, Hong Jia
 </div>
 
 <div class="affiliations">
 University of Melbourne · University of Auckland  
-</div>
+</div> -->
 
 <!-- <div class="meta">
 📅 <strong>Published:</strong> 12 Oct 2025  
@@ -123,7 +140,7 @@ University of Melbourne · University of Auckland
 📁 <strong>GenAI4Health 2025 Poster</strong>
 </div> -->
 
-<div class="btn-row">
+<div class="btn-bar">
 
     <a class="btn" href="https://arxiv.org/abs/2509.07260">
         <img src="https://cdn-icons-png.flaticon.com/512/3389/3389081.png">
