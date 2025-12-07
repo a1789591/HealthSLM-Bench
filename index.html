@@ -9,27 +9,39 @@
       margin: 0;
       padding: 32px 16px;
       font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-      background: #e8faf4;
+
+      /* ⭐️ 极淡渐变背景（方案 C）⭐️ */
+      background: linear-gradient(
+        180deg,
+        #fafcfc 0%,
+        #f4f7f6 100%
+      );
     }
+
     .page {
       max-width: 960px;
       margin: 0 auto;
       background: #ffffff;
       border-radius: 24px;
-      padding: 32px 28px 40px;
-      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.15);
+      padding: 40px 36px 48px;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
     }
+
     h1 {
       text-align: center;
       margin-bottom: 8px;
       font-size: 2rem;
+      font-weight: 700;
     }
+
     .subtitle {
       text-align: center;
       color: #4b5563;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
+      font-size: 1.05rem;
     }
-    p {
+
+    p, li {
       color: #374151;
       line-height: 1.6;
       font-size: 0.96rem;
@@ -39,21 +51,26 @@
 <body>
   <main class="page">
     <h1>HealthSLM-Bench</h1>
+
     <div class="subtitle">
       A benchmark for evaluating small language models on health monitoring tasks.
     </div>
+
     <p>
       This is the project page for <strong>HealthSLM-Bench</strong>. Here we will later add:
     </p>
+
     <ul>
       <li>Paper link (arXiv / conference)</li>
       <li>GitHub repository and documentation</li>
       <li>Dataset and evaluation details</li>
       <li>Experimental results and figures</li>
     </ul>
+
     <p>
       For now, this is just a minimal landing page to make sure GitHub Pages works.
     </p>
+
   </main>
 </body>
 </html>
