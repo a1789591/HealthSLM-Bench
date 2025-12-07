@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>HealthSLM-Bench: Benchmarking Small Language Models for On-device Healthcare Monitoring</title>
+  <title>HealthSLM-Bench: Benchmarking Small Language Models for Mobile and Wearable Healthcare Monitoring</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root {
@@ -180,21 +180,6 @@
       margin-bottom: 6px;
     }
 
-    .badge-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 10px;
-      font-size: 0.8rem;
-    }
-
-    .badge {
-      padding: 4px 10px;
-      border-radius: 999px;
-      background: #eff6ff;
-      color: #1d4ed8;
-    }
-
     .pill-list {
       display: grid;
       grid-template-columns: 1fr;
@@ -231,14 +216,21 @@
       color: var(--text-muted);
       text-align: center;
     }
+
+    .submission {
+      margin-top: 10px;
+      font-size: 0.84rem;
+      color: #7f1d1d;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
   <main class="page">
     <header>
-      <h1>HealthSLM-Bench: Benchmarking Small Language Models for On-device Healthcare Monitoring</h1>
+      <h1>HealthSLM-Bench: Benchmarking Small Language Models for Mobile and Wearable Healthcare Monitoring</h1>
       <div class="subtitle">
-        Benchmarking Small Language Models (SLMs) for mobile and wearable healthcare monitoring with
+        Benchmarking Small Language Models (SLMs) for mobile and wearable health monitoring with
         on-device deployment.
       </div>
 
@@ -250,9 +242,8 @@
       </div>
 
       <div class="meta-row">
-        <div class="meta-pill">📅 20 Sept 2025 (last updated: 12 Nov 2025)</div>
-        <div class="meta-pill">📄 ICLR 2026 Conference · Withdrawn Submission</div>
-        <div class="meta-pill">🔍 Primary area: datasets and benchmarks</div>
+        <div class="meta-pill">📅 Published: 12 Oct 2025, Last Modified: 13 Nov 2025</div>
+        <div class="meta-pill">📁 GenAI4Health 2025 Poster</div>
       </div>
 
       <div class="btn-row">
@@ -276,20 +267,21 @@
       <article class="card abstract-card">
         <div class="section-label">Abstract</div>
         <p>
-          On-device healthcare monitoring play a vital role in facilitating timely interventions,
-          managing chronic health conditions, and ultimately improving individuals’ quality of life.
-          Previous studies on large language models (LLMs) have highlighted their impressive
-          generalization abilities and effectiveness in healthcare prediction tasks. However, most
-          LLM-based healthcare solutions are cloud-based, which raises significant privacy concerns
-          and results in increased memory usage and latency. To address these challenges, there is
-          growing interest in compact models, Small Language Models (SLMs), which are lightweight
-          and designed to run locally and efficiently on mobile and wearable devices. Nevertheless,
-          how well these models perform in healthcare prediction remains largely unexplored.
+          Mobile and wearable healthcare monitoring play a vital role in facilitating timely
+          interventions, managing chronic health conditions, and ultimately improving individuals’
+          quality of life. Previous studies on large language models (LLMs) have highlighted their
+          impressive generalization abilities and effectiveness in healthcare prediction tasks.
+          However, most LLM-based healthcare solutions are cloud-based, which raises significant
+          privacy concerns and results in increased memory usage and latency. To address these
+          challenges, there is growing interest in compact models, Small Language Models (SLMs),
+          which are lightweight and designed to run locally and efficiently on mobile and wearable
+          devices. Nevertheless, how well these models perform in healthcare prediction remains
+          largely unexplored.
         </p>
         <p>
-          We systematically evaluated SLMs on health prediction tasks using zero-shot, few-shot, and
-          instruction fine-tuning approaches, and deployed the best performing fine-tuned SLMs on
-          mobile devices to evaluate their real-world efficiency and predictive performance in
+          We systematically benchmarked SLMs on health prediction tasks using zero-shot, few-shot,
+          and instruction fine-tuning approaches, and deployed the best performing fine-tuned SLMs
+          on mobile devices to evaluate their real-world efficiency and predictive performance in
           practical healthcare scenarios. Our results show that SLMs can achieve performance
           comparable to LLMs while offering substantial gains in efficiency, reaching up to 17×
           lower latency and 16× faster inference speed on mobile platforms. However, challenges
@@ -297,6 +289,10 @@
           highlight SLMs, though imperfect in their current form, as a promising solution for
           next-generation, privacy-preserving healthcare monitoring.
         </p>
+
+        <div class="submission">
+          Submission Number: 117
+        </div>
       </article>
 
       <!-- Right: TLDR + Keywords etc -->
@@ -305,7 +301,7 @@
           <div class="section-label">TL;DR</div>
           <p>
             This paper benchmarks Small Language Models (SLMs) for mobile health applications,
-            demonstrating efficient, privacy-preserving predictions on wearable devices with
+            demonstrating efficient, privacy-preserving predictions on wearable devices, with
             performance comparable to larger language models (LLMs) in health task predictions.
           </p>
         </div>
@@ -316,7 +312,7 @@
             <div class="pill-item">Small Language Models (SLMs)</div>
             <div class="pill-item">Mobile Health</div>
             <div class="pill-item">On-device LLMs</div>
-            <div class="pill-item">Wearable Sensing</div>
+            <div class="pill-item">Wearable Healthcare</div>
           </div>
         </div>
 
