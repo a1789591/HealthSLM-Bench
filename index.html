@@ -98,11 +98,15 @@
     }
 
     .bibtex-block pre {
-        display: inline-block;
-        margin: 0;
+        /* display: inline-block; */
+        /* margin: 0; */
         font-family: Menlo, Monaco, "Courier New", monospace;
         font-size: 14px;
         white-space: pre;
+    }
+
+    .bibtex-content {
+        margin-left: 5px;
     }
 
     .bib-copy-btn {
@@ -288,7 +292,7 @@
 <p>If you find <strong>HealthSLM-Bench</strong> useful in your research, please cite it as:</p>
 
 <div class="bibtex-block">
-<pre id="bibtex">
+<pre class="bibtex-content">
 @article{wang2025healthslm,
   title   = {HealthSLM-Bench: Benchmarking Small Language Models for Mobile and Wearable Healthcare Monitoring},
   author  = {Wang, Xin and Dang, Ting and Zhang, Xinyu and Kostakos, Vassilis and Witbrock, Michael J. and Jia, Hong},
