@@ -26,6 +26,7 @@
         margin-bottom: 6px;
         font-size: 2rem;
         line-height: 1.3;
+        text-align: center;
     }
     
     h2{
@@ -33,22 +34,23 @@
     }
     
     h2::before {
-    counter-increment: section;
-    content: counter(section) ". ";
-}
+        counter-increment: section;
+        content: counter(section) ". ";
+    }
 
-h3::before {
-    counter-increment: subsection;
-    content: counter(section) "." counter(subsection) " ";
+    h3::before {
+        counter-increment: subsection;
+        content: counter(section) "." counter(subsection) " ";
     }
     
     .no-number::before {
-    content: "" !important;
-    counter-increment: none !important;
-}
+        content: "" !important;
+        counter-increment: none !important;
+    }
     
+    /* 通用居中工具类 */
     .center{
-        text-alignment:center;
+        text-align: center;
     }
 
     .subtitle {
@@ -83,47 +85,45 @@ h3::before {
         margin: 30px 0;
     }
 
-.bibtex-block {
-    background: #0f172a;            /* 深色背景*/
-    color: #e2e8f0;                 /* 浅文字 */
-    padding: 20px 24px;
-    border-radius: 20px;
-    margin-top: 16px;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-    position: relative;
-    overflow-x: auto;
-    width: 70%;
-    margin:24px 0;
-    padding: 20px 24px;
-}
+    /* ---------- BibTeX 区块 ---------- */
+    .bibtex-block {
+        background: #0f172a;
+        color: #e2e8f0;
+        padding: 20px 24px;
+        border-radius: 20px;
+        margin: 24px auto;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+        position: relative;
+        overflow-x: auto;
+        width: 70%;
+    }
 
-.bibtex-block pre {
-    margin: 0;
-    font-family: Menlo, Monaco, "Courier New", monospace;
-    font-size: 14px;
-    white-space: pre;
-}
+    .bibtex-block pre {
+        margin: 0;
+        font-family: Menlo, Monaco, "Courier New", monospace;
+        font-size: 14px;
+        white-space: pre;
+    }
 
-/* Copy 按钮（右上角） */
-.bib-copy-btn {
-    position: absolute;
-    top: 14px;
-    right: 14px;
-    background: #e2e8f0;
-    color: #0f172a;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 12px;
-    font-size: 12px;
-    cursor: pointer;
-    font-weight: 500;
-}
+    .bib-copy-btn {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        background: #e2e8f0;
+        color: #0f172a;
+        border: none;
+        padding: 6px 12px;
+        border-radius: 12px;
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: 500;
+    }
 
-.bib-copy-btn:hover {
-    background: #cbd5e1;
-}
+    .bib-copy-btn:hover {
+        background: #cbd5e1;
+    }
 
-    /* ------------ Buttons (dark style like screenshot #2) ------------ */
+    /* ---------- 按钮区域 ---------- */
     .btn-bar {
         display: flex;
         gap: 20px;
@@ -132,7 +132,7 @@ h3::before {
     }
     
     .btn {
-        display: flex;
+        display: inline-flex;
         align-items: center;
         gap: 10px;
         background: #1e2532;
@@ -146,22 +146,28 @@ h3::before {
         transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
     
-    .btn img {
-        width: 22px;
-        height: 22px;
-        filter: brightness(0) invert(1); /* 全部变成白色 icon */
-    }
-    
     .btn:hover {
         transform: translateY(-2px);
         box-shadow: 0 6px 16px rgba(0,0,0,0.25);
     }
 
-    /* image box */
+    .icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    /* ---------- 图片区域 ---------- */
     .image-box {
         margin: 30px 0;
         text-align: center;
     }
+
     .image-box img {
         width: 100%;
         border-radius: 12px;
@@ -174,105 +180,100 @@ h3::before {
 
 <div class="container">
 
-<h1 class="center">HealthSLM-Bench: Benchmarking Small Language Models for Mobile and Wearable Healthcare Monitoring</h1>
+    <h1>HealthSLM-Bench: Benchmarking Small Language Models for Mobile and Wearable Healthcare Monitoring</h1>
 
+    <div class="authors">
+        <span>Xin Wang<sup>1</sup>,</span>
+        <span>Ting Dang<sup>1</sup>,</span>
+        <span>Xinyu Zhang<sup>2</sup>,</span>
+        <span>Vassilis Kostakos<sup>1</sup>,</span>
+        <span>Michael Witbrock<sup>2</sup>,</span>
+        <span>Hong Jia<sup>2</sup></span>
+    </div>
 
-<div class="authors">
-    <span>Xin Wang<sup>1</sup>,</span>
-    <span>Ting Dang<sup>1</sup>,</span>
-    <span>Xinyu Zhang<sup>2</sup>,</span>
-    <span>Vassilis Kostakos<sup>1</sup>,</span>
-    <span>Michael Witbrock<sup>2</sup>,</span>
-    <span>Hong Jia<sup>2</sup></span>
-</div>
+    <div class="affiliations">
+        <span><sup>1</sup> University of Melbourne, Australia ·</span>
+        <span><sup>2</sup> University of Auckland, New Zealand</span>
+    </div>
 
-<div class="affiliations">
-    <span><sup>1</sup> University of Melbourne, Australia ·
-    <span><sup>2</sup> University of Auckland, New Zeland</span>
-</div>
+    <!-- 深色圆角按钮 -->
+    <div class="btn-bar">
 
+        <!-- Paper 按钮：用 SVG 图标，不再用 arxiv.png -->
+        <a class="btn" href="https://arxiv.org/abs/2509.07260" target="_blank">
+            <span class="icon">
+                <svg viewBox="0 0 24 24" fill="none"
+                     stroke="white" stroke-width="1.8"
+                     stroke-linecap="round" stroke-linejoin="round">
+                    <!-- 文档框 -->
+                    <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                    <!-- 斜线箭头 / 折角效果 -->
+                    <polyline points="9 15 12 11 15 15"></polyline>
+                    <line x1="12" y1="11" x2="12" y2="7"></line>
+                </svg>
+            </span>
+            <span>Paper</span>
+        </a>
 
-<!-- <div class="authors">
-Xin Wang, Ting Dang, Xinyu Zhang, Vassilis Kostakos, Michael J. Witbrock, Hong Jia
-</div>
+        <!-- Code 按钮：简单 GitHub 图标 -->
+        <a class="btn" href="https://github.com/a1789591/HealthSLM-Bench" target="_blank">
+            <span class="icon">
+                <svg viewBox="0 0 24 24" fill="white">
+                    <path d="M12 .5C5.73.5.75 5.48.75 11.73c0 4.93 3.19 9.11 7.62 10.59.56.11.77-.24.77-.54
+                             0-.27-.01-1.15-.02-2.09-3.1.67-3.76-1.32-3.76-1.32-.51-1.29-1.24-1.63-1.24-1.63-1.01-.69.08-.68.08-.68
+                             1.12.08 1.71 1.15 1.71 1.15 1 .1.76-.76 1.86-1.1.08-.73.39-1.23.71-1.51-2.48-.28-5.09-1.24-5.09-5.51
+                             0-1.22.44-2.22 1.15-3-.12-.28-.5-1.41.11-2.93 0 0 .95-.3 3.11 1.15a10.7 10.7 0 0 1 2.83-.38c.96 0 1.93.13 2.83.38
+                             2.16-1.45 3.11-1.15 3.11-1.15.61 1.52.23 2.65.11 2.93.71.78 1.15 1.78 1.15 3 0 4.28-2.62 5.22-5.12 5.5.4.35.76 1.04.76 2.11
+                             0 1.52-.01 2.74-.01 3.11 0 .3.2.66.77.54A10.99 10.99 0 0 0 23.25 11.73C23.25 5.48 18.27.5 12 .5z"/>
+                </svg>
+            </span>
+            <span>Code</span>
+        </a>
 
-<div class="affiliations">
-University of Melbourne · University of Auckland  
-</div> -->
+    </div>
 
-<!-- <div class="meta">
-📅 <strong>Published:</strong> 12 Oct 2025  
-&ensp;·&ensp; <strong>Last Modified:</strong> 13 Nov 2025  
-<br>
-📁 <strong>GenAI4Health 2025 Poster</strong>
-</div> -->
+    <hr>
 
-<div class="btn-bar center">
+    <h2 class="no-number">Abstract</h2>
 
-    <a class="btn" href="https://arxiv.org/abs/2509.07260">
-        <img src="images/arxiv.png">
-        Paper
-    </a>
+    <p>
+    Mobile and wearable healthcare monitoring play a vital role in facilitating timely interventions,
+    managing chronic health conditions, and ultimately improving individuals’ quality of life.
+    Previous studies on large language models (LLMs) have highlighted their impressive generalization
+    abilities and effectiveness in healthcare prediction tasks. However, most LLM-based healthcare
+    solutions are cloud-based, raising significant privacy concerns and increasing memory usage
+    and latency.
+    To address these challenges, compact Small Language Models (SLMs) have emerged as an alternative.
+    We systematically benchmarked SLMs on health prediction tasks using zero-shot, few-shot,
+    and instruction-tuning settings, and deployed the best fine-tuned SLMs on mobile devices
+    to evaluate real-world performance.
+    Our results show that SLMs can achieve performance comparable to LLMs while offering substantial
+    gains in efficiency—up to 17× lower latency and 16× faster inference on mobile platforms.
+    Challenges remain in handling class imbalance and few-shot scenarios, highlighting SLMs
+    as a promising solution for next-generation, privacy-preserving healthcare monitoring.
+    </p>
 
-    <a class="btn" href="https://github.com/a1789591/HealthSLM-Bench">
-        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
-        Code
-    </a>
+    <div class="image-box">
+        <img src="images/overview.png" alt="Overview figure">
+    </div>
 
-    <!-- <a class="btn" href="https://huggingface.co/your_model">
-        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg">
-        Hugging Face
-    </a> -->
+    <h2>Overview</h2>
 
-</div>
+    <h2>Model and Training</h2>
 
-<hr>
+    <h2>Results</h2>
 
-<h2>Abstract</h2>
+    <h2>Data</h2>
 
-<p>
-Mobile and wearable healthcare monitoring play a vital role in facilitating timely interventions,
-managing chronic health conditions, and ultimately improving individuals’ quality of life.
-Previous studies on large language models (LLMs) have highlighted their impressive generalization
-abilities and effectiveness in healthcare prediction tasks. However, most LLM-based healthcare
-solutions are cloud-based, raising significant privacy concerns and increasing memory usage
-and latency.
-To address these challenges, compact Small Language Models (SLMs) have emerged as an alternative.
-We systematically benchmarked SLMs on health prediction tasks using zero-shot, few-shot,
-and instruction-tuning settings, and deployed the best fine-tuned SLMs on mobile devices
-to evaluate real-world performance.
-Our results show that SLMs can achieve performance comparable to LLMs while offering substantial
-gains in efficiency—up to 17× lower latency and 16× faster inference on mobile platforms.
-Challenges remain in handling class imbalance and few-shot scenarios, highlighting SLMs
-as a promising solution for next-generation, privacy-preserving healthcare monitoring.
-</p>
+    <h2>On-device deployment</h2>
 
+    <h2>Reproducibility</h2>
 
+    <h2 class="no-number">BibTeX</h2>
 
-<div class="image-box">
-    <img src="images/overview.png" alt="Overview figure">
-</div>
+    <p>If you find <strong>HealthSLM-Bench</strong> useful in your research, please cite it as:</p>
 
-
-<h2>Overview</h2>
-
-<h2>Model and Training</h2>
-
-<h2>Results</h2>
-
-<h2>Data</h2>
-
-<h2>On-device deployment</h2>
-
-<h2>Reproducibility</h2>
-
-<h2 class="no-number">BibTeX</h2>
-
-<p>If you find <strong>HealthSLM-Bench</strong> useful in your research, please cite it as:</p>
-
-<div class="bibtex-block">
-    <!-- <button class="bib-copy-btn" onclick="copyBibtex()">Copy</button>
-    -->
+    <div class="bibtex-block">
 <pre id="bibtex">
 @article{wang2025healthslm,
   title   = {HealthSLM-Bench: Benchmarking Small Language Models for Mobile and Wearable Healthcare Monitoring},
@@ -281,15 +282,13 @@ as a promising solution for next-generation, privacy-preserving healthcare monit
   year    = {2025}
 }
 </pre>
-</div>
-
+    </div>
 
 </div>
 
 <script>
 function copyBibtex() {
     const text = document.getElementById("bibtex").innerText;
-
     navigator.clipboard.writeText(text).then(() => {
         const btn = document.querySelector(".bib-copy-btn");
         const old = btn.innerText;
@@ -298,7 +297,6 @@ function copyBibtex() {
     });
 }
 </script>
-
 
 </body>
 </html>
