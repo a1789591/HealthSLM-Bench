@@ -247,11 +247,7 @@
 </div>
 
 <h2>Overview</h2>
-<p> 
-    In this work, we introduce <strong>HealthSLM-Bench</strong>, an extensive benchmark that systematically evaluates nine
-    SOTA SLMs on eight health prediction tasks across three real-world mobile and wearable datasets.
-    
-    Our benchmark is built upon two main components: Health-Domain Adaptation and Edge-Device Effciency Evaluation. 
+<p> Our benchmark is built upon two main components: Health-Domain Adaptation and Edge-Device Effciency Evaluation. 
     In the Health-Domain Adaptation stage, we format the wearable health data into structured prompts and evaluate the performance of SLMs under different level of apadation strategies, 
     including zero-shot, few-shot, and instruction-tuning. After adaptation, fine-tuned SLMs are compressed into 4-bit GGUF formats and deployed on mobile devices for on-device efficiency evaluation. 
     </p>
@@ -260,16 +256,15 @@
     anxiety, fatigue, activity, calories, and other personalized physiological metrics. </p>
 
 <!-- wearable sensor signals and self-reported measures are transformed into structured prompts -->
-<p>Our main contributions are as follows: </p>
+<p>Our main contributions in this work are as follows: </p>
 <ul>
-    <li>We introduce HealthSLM-Bench, an extensive benchmark that systematically evaluates nine
+    <li>We introduce <strong>HealthSLM-Bench</strong>, an extensive benchmark that systematically evaluates nine
         SOTA SLMs on eight health prediction tasks across three real-world mobile and wearable datasets.
     </li>
-    <li>We investigate various evaluation paradigms, including zero-shot, few-shot, and instructionbased fine-tuning, 
+    <li>We investigate various evaluation paradigms, including zero-shot, few-shot, and instruction-based fine-tuning, 
         providing a comprehensive performance analysis under different adaptation scenarios.
     </li>
-    <li> We demonstrate the feasibility of deploying fine-tuned SLMs on resource-constrained mobile
-         devices and quantify their efficiency in terms of real-world memory and latency footprints.
+    <li> We demonstrate the feasibility of deploying fine-tuned SLMs on resource-constrained mobile devices and quantify their efficiency in terms of real-world memory and latency footprints.
     </li>
 </ul>
 
