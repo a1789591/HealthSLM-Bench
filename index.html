@@ -189,6 +189,18 @@
         border-radius: 12px;
     }
 
+    .left-img {
+        width: 50%;
+    }
+
+    .right-col {
+        width: 50%;
+    }
+
+    .right-col img {
+        width: 100%;
+        margin-bottom: 10px; 
+    }
     ul li {
         margin-bottom: 8px;
 }
@@ -279,9 +291,9 @@
 
 <div class="image-row">
     <div class="image-box">
-        <img style="width: 80%; align-items: center;" src="images/data1.png" alt="Dataset 1 figure">
+        <img class="left-img" style="width: 80%; align-items: center;" src="images/data1.png" alt="Dataset 1 figure">
     </div>
-    <div class="image-box">
+    <div class="right-col">
         <img style="width: 80%; align-items: center;" src="images/data2.png" alt="Dataset 2 figure">
         <img style="width: 80%; align-items: center;" src="images/data3.png" alt="Dataset 3 figure">
     </div>
