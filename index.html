@@ -253,13 +253,14 @@
     
     Our benchmark is built upon two main components: Health-Domain Adaptation and Edge-Device Effciency Evaluation. 
     In the Health-Domain Adaptation stage, we format the wearable health data into structured prompts and evaluate the performance of SLMs under different level of apadation strategies, 
-    including zero-shot, few-shot, and instruction-tuning. After adaptation, SLMs are compressed into 4-bit GGUF formats and deployed on mobile devices for on-device efficiency evaluation. 
-    During real-time healthcare monitoring, 14-day wearable signals are converted into natural-language inputs and fed into SLMs for real-time prediction of stress, sleep quality, 
-    anxiety, fatigue, activity, calories, and other personalized physiological metrics. Our main contributions in this work are as follows:
-</p>
+    including zero-shot, few-shot, and instruction-tuning. After adaptation, fine-tuned SLMs are compressed into 4-bit GGUF formats and deployed on mobile devices for on-device efficiency evaluation. 
+    </p>
+
+    <p>Together, this benchmark enables a comprehensive evaluation of SLMs' performance in on-device healthcare monitoring, where 14-day wearable signals are converted into natural-language inputs and fed into SLMs for real-time prediction of stress, sleep quality, 
+    anxiety, fatigue, activity, calories, and other personalized physiological metrics. </p>
 
 <!-- wearable sensor signals and self-reported measures are transformed into structured prompts -->
-
+<p>Our main contributions are as follows: </p>
 <ul>
     <li>We introduce HealthSLM-Bench, an extensive benchmark that systematically evaluates nine
         SOTA SLMs on eight health prediction tasks across three real-world mobile and wearable datasets.
