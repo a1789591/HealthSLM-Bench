@@ -243,11 +243,33 @@
 </p>
 
 <div class="image-box">
-    <img src="images/overview.png" style="width: 80%;" alt="Overview figure">
+    <img src="images/overview.png" style="width: 80%;align-items: center;" alt="Overview figure">
 </div>
 
 <h2>Overview</h2>
+<p> 
+    In this work, we introduce <strong>HealthSLM-Bench</strong>, an extensive benchmark that systematically evaluates nine
+    SOTA SLMs on eight health prediction tasks across three real-world mobile and wearable datasets.
+    
+    The overall framework of our proposed HealthSLM-Bench consists of two main components, 
+    including <strong>Health-Domain Adaptation</strong> and <strong>Edge-Device Inference & Healthcare Monitoring</strong>. 
+    In the Health-Domain Adaptation stage, wearable sensor signals and self-reported measures are used to adapt SLMs to the health domain through zero-shot learning, few-shot learning, and instructional tuning. 
+    Once SLMs are adapted, they are compressed in 4-bit quantization and deployed on edge devices. 
+    During inference, the sensor data read from wearable devices is structured into prompts and fed into SLMs to enable real-time healthcare monitoring, 
+    which continuously predicts user stress, sleep quality, anxiety, and other personalized physiological metrics on mobile devices. Our main contributions in this work are as follows:
+</p>
 
+<ul>
+    <li>We introduce, HealthSLM-Bench, an extensive benchmark that systematically evaluates nine
+        SOTA SLMs on eight health prediction tasks across three real-world mobile and wearable datasets.
+    </li>
+    <li>We investigate various evaluation paradigms, including zero-shot, few-shot, and instructionbased fine-tuning, 
+        providing a comprehensive performance analysis under different adaptation scenarios.
+    </li>
+    <li> We demonstrate the feasibility of deploying fine-tuned SLMs on resource-constrained mobile
+         devices and quantify their efficiency in terms of real-world memory and latency footprints.
+    </li>
+</ul>
 
 <h2>Datasets</h2>
 <div class="image-box">
