@@ -365,6 +365,12 @@ Training all nine models end-to-end takes roughly 7 hours.</p>
 </ul> -->
 
 <h2>On-device deployment</h2>
+<p>After training, we deploy the top-performing health domain-adapted SLMs on an iPhone 15 Pro Max equipped with 8 GB of RAM 
+to evaluate their real-world on-device efficiency. As shown in the Figure 3, the mobile depoly pipeline for health domain-adapted SLMs includes two main steps: conversion to the GGUF format and 4-bit quantization.
+The GGUF format (Generalized Graphical Unified Format) ensures compatibility with lightweight inference engines on mobile devices such as Llama.cpp, 
+while 4-bit quantization enables efficient deployment on resource-constrained mobile devices. 
+Build upon this, we developed an iOS application, <strong>HealthAI@Unimelb</strong>, to support our on-device efficiency evaluation experiments.</p>
+
 
 <div class="image-row">
     <div class="image-box" style="margin: 0;">
