@@ -356,7 +356,7 @@
     </div>
 </div>
 
-<h2>Models and Training Details</h2>
+<!-- <h2>Models and Training Details</h2>
 <p class="formatted_link">In HealthSLM-Bench, we assessed 9 most state-of-the-art SLMs between 1 to 4B from top-tier tech companies, 
 including Google’s Gemma2-2B-it, Microsoft’s Phi-3-mini-4k,  HuggingFace’s SmolLM1.7B, Alibaba’s Qwen2-1.5B,  TinyLlama’s TinyLlama-1.1B, Meta-Llama’s Llama-3.2-1B 
 and their variants. The model details are as follows:
@@ -418,12 +418,75 @@ and their variants. The model details are as follows:
 
 All models are used in their instruction-tuned version to ensure consistent behavior under
 zero-shot, few-shot, and supervised fine-tuning settings. 
-</p>
+</p> -->
+
+
+<h2>Small Language Models</h2>
+
+<p>We evaluated 9 modern SLMs (1B–4B) widely used in mobile and edge intelligence research.
+Click model names for HuggingFace links.</p>
+
+<h3>Microsoft Phi-series</h3>
+<div class="model-card">
+  <strong><a href="https://huggingface.co/microsoft/Phi-3-mini-4k-instruct">Phi-3-mini-4k-Instruct</a></strong>
+  <p>3.8B params · reasoning-dense · synthetic + curated data</p>
+</div>
+
+<div class="model-card">
+  <strong><a href="https://huggingface.co/microsoft/Phi-3.5-mini-instruct">Phi-3.5-mini-Instruct</a></strong>
+  <p>Upgraded Phi-3-mini with stronger multi-step reasoning</p>
+</div>
+
+<h3>TinyLlama Family</h3>
+<div class="model-card">
+  <strong><a href="https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0">TinyLlama-1.1B-Chat-v1.0</a></strong>
+  <p>Distilled LLaMA-2 (1.1B), UltraChat-based, compact & efficient</p>
+</div>
+
+<h3>HF / Google / Alibaba / Meta</h3>
+
+<div class="model-card">
+  <strong><a href="https://huggingface.co/HuggingFaceTB/SmolLM-1.7B-Instruct">SmolLM-1.7B-Instruct</a></strong>
+  <p>1.7B model trained on SmolLM-Corpus (textbooks + stories)</p>
+</div>
+
+<div class="model-card">
+  <strong><a href="https://huggingface.co/google/gemma-2-2b-it">Gemma-2-2B-it</a></strong>
+  <p>Google 2B instruction model with strong reasoning ability</p>
+</div>
+
+<div class="model-card">
+  <strong><a href="https://huggingface.co/Qwen/Qwen2-1.5B-Instruct">Qwen2-1.5B-Instruct</a></strong>
+  <p>Reasoning-enhanced SLM for coding and math tasks</p>
+</div>
+
+<div class="model-card">
+  <strong><a href="https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct">Llama-3.2-1B-Instruct</a></strong>
+  <p>1B model optimized for on-device inference</p>
+</div>
+
+<div class="model-card">
+  <strong><a href="https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct">Llama-3.2-3B-Instruct</a></strong>
+  <p>3B model offering stronger reasoning, still mobile-friendly</p>
+</div>
+
+<h2>Training Configuration</h2>
+<p>During training, all SLMs are fine-tuned using LoRA-based parameter-efficient training on an NVIDIA A100 80GB GPU,
+    trained for 3 epochs with a batch size of 128. We used the Adam optimizer and the learning rate is set to 5e-5 with cosine decay and 5% warmup. 
+    Training all nine models end-to-end takes roughly 7 hours.</p>
+    <p>The training details are as follows: </p>
+<table class="config-table">
+  <tr><td>GPU</td><td>NVIDIA A100 80GB</td></tr>
+  <tr><td>Batch Size</td><td>128</td></tr>
+  <tr><td>Epochs</td><td>3</td></tr>
+  <tr><td>Optimizer</td><td>Adam</td></tr>
+  <tr><td>Learning Rate</td><td>5e-5 (cosine decay)</td></tr>
+  <tr><td>Warmup</td><td>5%</td></tr>
+  <tr><td>Decoding</td><td>Greedy</td></tr>
+  <tr><td>Max Tokens</td><td>30</td></tr>
+</table>
 
 <!-- <p>The training details are as follows: </p> -->
-<p>During training, all SLMs are fine-tuned using LoRA-based parameter-efficient training on an NVIDIA A100 80GB GPU,
-trained for 3 epochs with a batch size of 128. We used the Adam optimizer and the learning rate is set to 5e-5 with cosine decay and 5% warmup. 
-Training all nine models end-to-end takes roughly 7 hours.</p>
 
 <!-- <h3>Training Configuration</h3>
 
