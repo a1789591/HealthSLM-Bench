@@ -470,34 +470,10 @@ and their variants. The model details are as follows:
   <tr><td>Max Tokens Generated</td><td>30 tokens</td></tr>
 </table>
 
-<!-- <p>The training details are as follows: </p> -->
-
-<!-- <h3>Training Configuration</h3>
-
-<div class="config-card">
-    <ul>
-        <li><strong>GPU:</strong> NVIDIA A100 80GB</li>
-        <li><strong>Batch Size:</strong> 128</li>
-        <li><strong>Epochs:</strong> 3</li>
-        <li><strong>Optimizer:</strong> Adam</li>
-        <li><strong>Learning Rate:</strong> 5e-5</li>
-        <li><strong>Warmup:</strong> 5%</li>
-        <li><strong>Decoding:</strong> Greedy</li>
-        <li><strong>Max Tokens:</strong> 30</li>
-    </ul>
-    </div> -->
-<!-- <ul>
-    <li>preprocessing </li>
-
-</ul> -->
 
 <h2>On-device deployment</h2>
 <p>After training, we deploy the top-performing health domain-adapted SLMs on an iPhone 15 Pro Max equipped with 8 GB of RAM 
-to evaluate their real-world on-device efficiency. As shown in the Figure 3, the mobile depoly pipeline for health domain-adapted SLMs includes two main steps: conversion to the GGUF format and 4-bit quantization.
-The GGUF format (Generalized Graphical Unified Format) ensures compatibility with lightweight inference engines on mobile devices such as Llama.cpp, 
-while 4-bit quantization enables efficient deployment on resource-constrained mobile devices. 
-Build upon this, we developed an iOS application, <strong>HealthAI@Unimelb</strong>, to support our on-device efficiency evaluation experiments.</p>
-
+to evaluate their real-world on-device efficiency.</p>
 
 <div class="image-row">
     <div class="image-box" style="margin: 0;">
@@ -508,6 +484,11 @@ Build upon this, we developed an iOS application, <strong>HealthAI@Unimelb</stro
         <img style="width: 80%; align-items: center;" src="images/phone_demo1.png" alt="iPhone demo figure">
     </div>
 </div>
+
+<p> As shown in the Figure 3, the mobile depoly pipeline for health domain-adapted SLMs includes two main steps: conversion to the GGUF format and 4-bit quantization.
+    The GGUF format (Generalized Graphical Unified Format) ensures compatibility with lightweight inference engines on mobile devices such as Llama.cpp, 
+    while 4-bit quantization enables efficient deployment on resource-constrained mobile devices. 
+    Build upon this, we developed an iOS application, <strong>HealthAI@Unimelb</strong>, to support our on-device efficiency evaluation experiments.</p>
 
 <h2>Results</h2>
     <!-- <div class="image-row"> -->
