@@ -455,18 +455,19 @@ and their variants. The model details are as follows:
 
 <h2>Training Configuration</h2>
 <p>During training, all SLMs are fine-tuned using LoRA-based parameter-efficient training on an NVIDIA A100 80GB GPU,
-    trained for 3 epochs with a batch size of 128. We used the AdamW optimizer and the learning rate is set to 5e-5 with cosine decay and 5% warmup. 
+    trained for 3 epochs with a batch size of 128. In specific, we used the AdamW optimizer and the learning rate is set to 5e-5 with cosine decay and 5% warmup. 
     Training all nine models end-to-end takes roughly 7 hours.</p>
-    <p>The training details are as follows: </p>
+<p>The training details are as follows: </p>
+
 <table class="config-table">
   <tr><td>GPU</td><td>NVIDIA A100 80GB</td></tr>
   <tr><td>Batch Size</td><td>128</td></tr>
   <tr><td>Epochs</td><td>3</td></tr>
   <tr><td>Optimizer</td><td>AdamW</td></tr>
   <tr><td>Learning Rate</td><td>5e-5 (cosine decay)</td></tr>
-  <tr><td>Warmup</td><td>5%</td></tr>
+  <tr><td>Warmup</td><td>5% of total training steps</td></tr>
   <tr><td>Decoding</td><td>Greedy</td></tr>
-  <tr><td>Max Tokens</td><td>30</td></tr>
+  <tr><td>Max Tokens Generated</td><td>30 tokens</td></tr>
 </table>
 
 <!-- <p>The training details are as follows: </p> -->
