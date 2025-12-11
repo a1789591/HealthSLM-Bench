@@ -513,7 +513,7 @@ to evaluate their real-world on-device efficiency.</p>
     <p>Under few-shot settings, providing even a small number of examples leads to noticeable performance improvements over the zero-shot setting. 
        Compared with LLMs, SLMs remain competitive in few-shot healthcare tasks, even when only a single example is given. </p>
        <!-- (see the full few-shot results in the paper for additional details) -->
-        
+
     <p>However, we also observe a collapse phenomenon when the number of provided samples is very low, where the model tends to converge to a fixed and uninformative prediction. 
        On our further investigation, we found that increasing the number of examples can counter this effect and yields more stable and reliable predictions. </p>
 
@@ -530,7 +530,7 @@ to evaluate their real-world on-device efficiency.</p>
         <img style="width: 50%; align-items: center;" src="images/result3.2.png" alt="Instruction-tuning figure">
     </div>
     <p> The instruction-tuning results show that the health domain-adapted SLMs can achieve performance comparable to LLMs while offering substantial gains in efficiency and privacy. </p>
-    <p> We also observed that the SLMs tend to getting stuck at suboptimal on those class-imbalanced datasets, where the model tends to predict only the majority classes. </p>
+    <p> We also observed that the SLMs tend to getting stuck at suboptimal performance on tasks from class-imbalanced datasets, where the model tends to predict only the majority classes. </p>
     <div class="image-box">
         <img style="width: 80%; align-items: center;" src="images/result3.3.png" alt="Instruction-tuning figure">
     </div>
