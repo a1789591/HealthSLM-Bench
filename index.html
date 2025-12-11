@@ -491,7 +491,9 @@ to evaluate their real-world on-device efficiency.</p>
     Build upon this, we developed an iOS application, <strong>HealthAI@Unimelb</strong>, to support our on-device efficiency evaluation experiments.</p>
 
 <h2>Results</h2>
-    <!-- <div class="image-row"> -->
+<p>In our experiments, we firstly evaluate the performance of SLMs in comparison with prior SOTA LLM baselines on the same datasets, under different level of adapation settings, including zero-shot, few-shot, and instruction-tuning evaluation paradigms. 
+    The results are presented below:</p>
+
     <h3> Zero-shot</h3>
         <div class="image-box">
             <img style="width: 80%; align-items: center;" src="images/result1.1.png" alt="Zero-shot figure">
@@ -499,18 +501,26 @@ to evaluate their real-world on-device efficiency.</p>
         <div class="image-box">
             <img style="width: 80%; align-items: center;" src="images/result1.2.png" alt="Zero-shot figure">
         </div>
-    <!-- </div> -->
+    <p> Under zero-shot settings, SLMs generally match or surpass LLMs on most health prediction
+        tasks, notably achieving better results in stress, readiness, and fatigue predictions. Surpringly, some leading SLMs,
+        such as Gemma-2-2B-it and Phi-3-mini-4k, show consistent strength compared with SOTA LLMs. </p>
+    
     <h3> Few-shot</h3>
-<!-- <div class="image-row" style="width: 80%;"> -->
     <div class="image-box">
-        <img style="width: 80%; align-items: center;" src="images/result2.1.png" alt="Few-shot figure">
+        <img style="width: 80%; align-items: center;" src="images/result2.5.png" alt="Few-shot figure">
     </div>
+
+    <p>Under few-shot settings, providing even a small number of examples leads to noticeable performance improvements over the zero-shot setting. 
+       Compared with LLMs, SLMs remain competitive in few-shot healthcare tasks, even when only a single example is given. </p>
+       <!-- (see the full few-shot results in the paper for additional details) -->
+        
+    <p>However, we also observe a collapse phenomenon when the number of provided samples is very low, where the model tends to converge to a fixed and uninformative prediction. 
+       On our further investigation, we found that increasing the number of examples can counter this effect and yields more stable and reliable predictions. </p>
+
     <div class="image-box">
         <img style="width: 80%; align-items: center;" src="images/result2.2.png" alt="Few-shot figure">
     </div>
-<!-- </div> -->
-
-
+    
     <h3> Instruction-tuning</h3>
     <div class="image-box">
         <img style="width: 80%; align-items: center;" src="images/result3.1.png" alt="Instruction-tuning figure">
@@ -519,14 +529,21 @@ to evaluate their real-world on-device efficiency.</p>
     <div class="image-box">
         <img style="width: 50%; align-items: center;" src="images/result3.2.png" alt="Instruction-tuning figure">
     </div>
+    <p> The instruction-tuning results show that the health domain-adapted SLMs can achieve performance comparable to LLMs while offering substantial gains in efficiency and privacy. </p>
+    <p> We also observed that the SLMs tend to getting stuck at suboptimal on those class-imbalanced datasets, where the model tends to predict only the majority classes. </p>
     <div class="image-box">
         <img style="width: 80%; align-items: center;" src="images/result3.3.png" alt="Instruction-tuning figure">
     </div>
 
+
     <h3> On-device efficiency evaluation</h3>
+    <p> After that, we ran inference with the two top-performing instructional-tuned SLMs, Phi-3-mini-4k and TinyLlama-1.1B, on an iPhone 15 Pro Max using the iOS application (HealthAI@Unimelb) to evaluate their 
+        real-world on-device efficiency.</p>
     <div class="image-box">
         <img src="images/result4.1.png" alt="Effciency evaluation figure">
     </div>
+    <p> Our on-device efficiency evaluation results show that SLMs achieve substantial reductions in both input processing latency and generation latency. 
+        Indicating them as ideal and practical solutions for resource-constrained mobile health applications. </p>
 
 <h2>Reproducibility</h2>
 <p>The relevant code and instructions to reproduce this work will be made public at the <a href="https://github.com/a1789591/HealthSLM-Bench">github repository</a> shortly.</p>
