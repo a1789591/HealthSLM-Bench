@@ -358,10 +358,63 @@
 
 <h2>Models and Training Details</h2>
 <p class="formatted_link">In HealthSLM-Bench, we assessed 9 most state-of-the-art SLMs between 1 to 4B from top-tier tech companies, 
-including <a href="https://huggingface.co/google/gemma2-2b-it">Google’s Gemma2-2B-it</a>, <a href="https://huggingface.co/microsoft/phi-3-mini-4k">Microsoft’s Phi-3-mini-4k</a>, 
-<a href="https://huggingface.co/microsoft/phi-3-mini-4k">HuggingFace’s SmolLM1.7B</a>, <a href="https://huggingface.co/microsoft/phi-3-mini-4k">Alibaba’s Qwen2-1.5B</a>, 
-<a href="https://huggingface.co/microsoft/phi-3-mini-4k">TinyLlama’s TinyLlama-1.1B</a>, and<a href="https://huggingface.co/meta-llama/Llama-3.2-1B">Meta-Llama’s Llama-3.2-1B</a> 
-and their variants.
+including Google’s Gemma2-2B-it, Microsoft’s Phi-3-mini-4k,  HuggingFace’s SmolLM1.7B, Alibaba’s Qwen2-1.5B,  TinyLlama’s TinyLlama-1.1B, Meta-Llama’s Llama-3.2-1B 
+and their variants. The model details are as follows:
+
+<ul class="formatted_link">
+    <li>
+      <strong>
+        <a href="https://huggingface.co/microsoft/Phi-3-mini-4k-instruct" target="_blank" rel="noopener noreferrer">
+          Phi-3-mini-4k-Instruct </a> </strong>:
+      Microsoft’s smallest Phi-3 model (3.8B params), trained on a mixture of synthetic and curated web data,
+      with strong reasoning-dense behavior.
+    </li>
+  
+    <li>
+      <strong>
+        <a href="https://huggingface.co/microsoft/Phi-3.5-mini-instruct" target="_blank" rel="noopener noreferrer">
+          Phi-3.5-mini-Instruct </a> </strong>:
+      An upgraded version of Phi-3-mini-4k-Instruct, trained on more reasoning-dense data for better
+      instruction alignment and multi-step reasoning.
+    </li>
+  
+    <li>
+      <strong>
+        <a href="https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0" target="_blank" rel="noopener noreferrer">
+          TinyLlama-1.1B-Chat-v1.0 </a> </strong>:
+      A distilled 1.1B-parameter version of LLaMA-2, trained on UltraChat-style data to provide a compact
+      chat model suitable for a wide range of tasks.
+    </li>  
+    <li>
+      <strong>
+        <a href="https://huggingface.co/HuggingFaceTB/SmolLM-1.7B-Instruct" target="_blank" rel="noopener noreferrer">
+          SmolLM-1.7B-Instruct
+      HuggingFace’s 1.7B-parameter SLM trained on the SmolLM-Corpus (textbooks, stories, and educational data),
+      targeting general instruction following.
+    </li>
+  
+    <li>
+      <strong>
+        <a href="https://huggingface.co/Qwen/Qwen2-1.5B-Instruct" target="_blank" rel="noopener noreferrer">
+          Qwen2-1.5B-Instruct </a> </strong>:
+      Alibaba’s 1.5B-parameter SOTA SLM in the Qwen2 family, trained on diverse instruction-following data,
+      including coding and math-oriented tasks.
+    </li>  
+    <li>
+      <strong>
+        <a href="https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct" target="_blank" rel="noopener noreferrer">
+          Llama-3.2-1B-Instruct </a> </strong>:
+      Meta’s 1B-parameter Llama-3.2 instruction-tuned model, optimized for efficient on-device language tasks.
+    </li>
+  
+    <li>
+      <strong>
+        <a href="https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct" target="_blank" rel="noopener noreferrer">
+          Llama-3.2-3B-Instruct </a> </strong>:
+      The 3B-parameter Llama-3.2 instruction model, offering stronger reasoning while remaining compact
+      enough for resource-constrained deployment.
+    </li>
+  </ul>
 
 All models are used in their instruction-tuned version to ensure consistent behavior under
 zero-shot, few-shot, and supervised fine-tuning settings. 
