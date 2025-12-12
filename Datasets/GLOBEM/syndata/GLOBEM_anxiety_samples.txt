@@ -1,0 +1,100 @@
+You are an expert in health and fitness data analysis. Using your understanding of human physiology and daily activity patterns, generate realistic health tracking data. Below are the descriptions of each column, followed by some samples from each class in the original dataset. Now, please follow the same natural patterns and relationships you observe in the original data and start to generate data in the column + grouped data structure prodived. (please only generate columns and data, do not produce anyother tokens other than the data in provided format).
+Anxiety: A numeric score indicating anxiety level perceived by individuals, ranges from 0 (not perceived) to 4 (severe anxiety),
+Steps: The average sum of steps in the last 14 days,
+Sleep_efficiency: A numeric score indicating the efficiency of sleep, ranges from 0 (not efficient) to 1 (very efficient),
+Time_in_bed_after_wakeup: The average time in bed after waking up in the last 14 days,
+Sleep_duration: The average sleep duration in the last 14 days,
+Time_stay_awake_but_still_in_bed: The average time staying awake but still in bed in the last 14 days,
+Time_spent_to_fall_asleep: The average time spent to fall asleep in the last 14 days, 
+
+
+Anxiety,Steps,Sleep_efficiency,Time_in_bed_after_wakeup,Sleep_duration,Time_stay_awake_but_still_in_bed,Time_spent_to_fall_asleep
+A.
+{v0}{v1}{v2}
+B.
+{v3}{v4}{v5}
+C.
+{v6}{v7}{v8}
+D.
+{v9}{v10}{v11}
+E.
+{v12}{v13}{v14}
+
+Anxiety,Steps,Sleep_efficiency,Time_in_bed_after_wakeup,Sleep_duration,Time_stay_awake_but_still_in_bed,Time_spent_to_fall_asleep
+A.
+{v15}{v16}{v17}
+B.
+{v18}{v19}{v20}
+C.
+{v21}{v22}{v23}
+D.
+{v24}{v25}{v26}
+E.
+{v27}{v28}{v29}
+
+
+===
+You are an expert in health and fitness data analysis. Using your understanding of human physiology and daily activity patterns, generate realistic health tracking data. Below are the descriptions of each column, followed by some samples from each class in the original dataset. Now, please follow the same natural patterns and relationships you observe in the original data and start to generate data in the column + grouped data structure prodived. (please only generate columns and data, do not produce anyother tokens other than the data in provided format).
+Anxiety: A numeric score indicating anxiety level perceived by individuals, ranges from 0 (not perceived) to 4 (severe anxiety),
+Steps: The average sum of steps in the last 14 days,
+Sleep_efficiency: A numeric score indicating the efficiency of sleep, ranges from 0 (not efficient) to 1 (very efficient),
+Time_in_bed_after_wakeup: The average time in bed after waking up in the last 14 days,
+Sleep_duration: The average sleep duration in the last 14 days,
+Time_stay_awake_but_still_in_bed: The average time staying awake but still in bed in the last 14 days,
+Time_spent_to_fall_asleep: The average time spent to fall asleep in the last 14 days, 
+
+
+Anxiety,Steps,Sleep_efficiency,Time_in_bed_after_wakeup,Sleep_duration,Time_stay_awake_but_still_in_bed,Time_spent_to_fall_asleep
+A.
+0.0,10369.2857142857,94.3571428571429,0.642857142857143,477.285714285714,29.4285714285714,0.0
+0.0,5496.0,95.0,0.0,375.0,20.0,0.0
+0.0,12296.8571428571,94.1666666666667,1.16666666666667,398.083333333333,26.0,0.0
+
+B.
+1.0,10393.625,93.3333333333333,0.333333333333333,390.333333333333,28.6666666666667,0.0
+1.0,7015.78571428571,92.9285714285714,1.21428571428571,353.642857142857,27.4285714285714,0.0
+1.0,8830.78571428571,94.9285714285714,0.0,455.285714285714,24.0,0.0
+
+C.
+2.0,11263.3571428571,92.7142857142857,0.0,347.642857142857,26.6428571428571,0.0
+2.0,15174.0,94.0,3.5,321.5,20.5,0.0
+2.0,5990.0,96.25,0.0,426.75,16.5,0.0
+
+D.
+3.0,5441.9,93.0,3.0,240.0,16.0,0.0
+3.0,7314.5,95.1666666666667,0.333333333333333,416.5,21.8333333333333,0.0
+3.0,10396.0,95.8888888888889,0.444444444444444,383.333333333333,16.6666666666667,0.0
+
+E.
+4.0,5815.72727272727,93.0,1.33333333333333,274.333333333333,17.6666666666667,0.0
+4.0,10635.9230769231,95.4615384615385,0.153846153846154,429.384615384615,20.6153846153846,0.0
+4.0,7352.25,96.0,8.0,154.0,6.0,0.0
+
+
+Anxiety,Steps,Sleep_efficiency,Time_in_bed_after_wakeup,Sleep_duration,Time_stay_awake_but_still_in_bed,Time_spent_to_fall_asleep
+A.
+0.0,9243.78571428571,96.6666666666667,0.0833333333333333,426.916666666667,14.25,0.0
+0.0,14112.7857142857,96.1666666666667,0.0833333333333333,456.25,18.0,0.0
+0.0,10074.0714285714,92.9285714285714,1.85714285714286,419.071428571429,33.2857142857143,0.0
+
+B.
+1.0,9544.33333333333,96.3333333333333,0.777777777777778,387.111111111111,15.1111111111111,0.0
+1.0,9982.21428571429,92.8571428571429,0.5,435.785714285714,36.6428571428571,0.0
+1.0,5648.21428571429,92.3571428571429,0.0,562.428571428571,45.7857142857143,0.0
+
+C.
+2.0,12460.1666666667,96.0,0.2,517.0,22.2,0.0
+2.0,11398.0,93.0,7.0,426.0,31.0,0.0
+2.0,7402.7,92.0,0.0,408.0,37.1666666666667,0.0
+
+D.
+3.0,11177.8,94.3333333333333,0.0,409.0,24.7777777777778,0.0
+3.0,12269.0714285714,94.0769230769231,0.0769230769230769,432.923076923077,27.0769230769231,0.0
+3.0,11689.5714285714,96.7692307692308,0.153846153846154,424.307692307692,13.4615384615385,0.0
+
+E.
+4.0,10635.9230769231,95.4615384615385,0.153846153846154,429.384615384615,20.6153846153846,0.0
+4.0,5815.72727272727,93.0,1.33333333333333,274.333333333333,17.6666666666667,0.0
+4.0,7352.25,96.0,8.0,154.0,6.0,0.0
+
+

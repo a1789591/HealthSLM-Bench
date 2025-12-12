@@ -1,0 +1,37 @@
+[
+    {
+        "index": 1132,
+        "task": "fatigue",
+        "instruction": "You are a personalized healthcare agent trained to predict fatigue score which ranges from 0 to 5 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [6597.0, 2152.0, 4656.0, 2324.0, 1969.0, 8098.0, 35.0, 12119.0, 11214.0, 8246.0, 1263.0, 9122.0, 370.0, 2357.0, 7693.0, 3251.0, 1993.0, 4056.0, 1978.0, 12421.0, 1618.0, 7537.0, 7481.0, 2119.0, 5823.0, 2178.0, 8707.0, 1838.0, 9157.0] steps, [Burned Calorories]: [584.0, 205.0, 761.0, 182.0, 160.0, 708.0, 5.0, 1301.0, 1254.0, 857.0, 106.0, 807.0, 34.0, 240.0, 702.0, 497.0, 170.0, 358.0, 164.0, 1470.0, 137.0, 661.0, 809.0, 214.0, 773.0, 167.0, 767.0, 181.0, 815.0] calories, [Resting Heart Rate]: [62.311007499694824, 60.51766109466553, 57.752352714538574, 57.366990089416504, 59.2921724319458, 59.32621669769287, 58.06359577178955, 58.092905044555664, 60.166069984436035, 58.651251792907715, 57.329970359802246, 56.97306156158447, 56.306965827941895, 55.20082187652588] beats/min, [SleepMinutes]: [452.0, 541.0, 540.0, 481.0, 510.0, 483.0, 485.0, 393.0, 484.0, 592.0, 497.0, 513.0, 326.0, 490.0] minutes, [Mood]: 4 out of 5; What would be the predicted fatigue?",
+        "answer": "The predicted fatigue level is 2."
+    },
+    {
+        "index": 1004,
+        "task": "fatigue",
+        "instruction": "You are a personalized healthcare agent trained to predict fatigue score which ranges from 0 to 5 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1651.0, 2640.0, 4274.0, 1630.0, 1718.0, 1417.0, 423.0, 372.0, 1182.0, 4103.0, 4527.0, 4065.0, 1992.0] steps, [Burned Calorories]: [158.0, 271.0, 403.0, 175.0, 203.0, 148.0, 39.0, 46.0, 117.0, 342.0, 403.0, 411.0, 186.0] calories, [Resting Heart Rate]: [51.15793704986572, 50.623393058776855, 51.89691352844238, 50.25901794433594, 50.18923568725586, 49.589598655700684, 48.51404571533203, 48.25457000732422, 48.71599006652832, 48.557228088378906, 50.34501647949219, 49.9366569519043, 50.14171123504639, 49.82376956939697] beats/min, [SleepMinutes]: [437.0, 408.0, 455.0, 529.0, 368.0, 392.0, 348.0, 458.0, 394.0, 516.0, 482.0, 375.0, 367.0, 397.0] minutes, [Mood]: 4 out of 5; What would be the predicted fatigue?",
+        "answer": "The predicted fatigue level is 3."
+    },
+    {
+        "index": 708,
+        "task": "fatigue",
+        "instruction": "You are a personalized healthcare agent trained to predict fatigue score which ranges from 0 to 5 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1745.0, 785.0, 1599.0, 5254.0, 792.0, 1872.0, 2289.0, 5109.0, 1691.0, 541.0, 3048.0, 5060.0] steps, [Burned Calorories]: [162.0, 92.0, 611.0, 471.0, 173.0, 177.0, 159.0, 446.0, 173.0, 103.0, 267.0, 454.0] calories, [Resting Heart Rate]: [56.99093246459961, 57.32547950744629, 57.10204601287842, 55.96010780334473, 54.93721866607666, 54.33335494995117, 54.1515474319458, 55.445197105407715, 54.85158824920654, 53.7756462097168, 54.55968379974365, 56.007134437561035, 57.30809020996094, 58.386549949645996] beats/min, [SleepMinutes]: [532.0, 439.0, 543.0, 503.0, 516.0, 445.0, 563.0, 372.0, 543.0, 469.0, 497.0, 536.0, 557.0, 502.0] minutes, [Mood]: 3 out of 5; What would be the predicted fatigue?",
+        "answer": "The predicted fatigue level is 2."
+    },
+    {
+        "index": 1243,
+        "task": "fatigue",
+        "instruction": "You are a personalized healthcare agent trained to predict fatigue score which ranges from 0 to 5 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1766.0, 2650.0, 3725.0, 1344.0] steps, [Burned Calorories]: [179.0, 388.0, 364.0, 135.0] calories, [Resting Heart Rate]: [59.745121002197266, 59.4343900680542, 60.2969274520874, 0.0, 61.07069396972656, 63.937621116638184, 66.18032741546631, 63.98358917236328, 61.85910987854004, 61.68306636810303, 63.629332542419434, 63.80786418914795, 62.918230056762695, 64.58010292053223] beats/min, [SleepMinutes]: [414.0, 467.0, 473.0, 720.0, 399.0, 521.0, 499.0, 351.0, 568.0, 560.0, 494.0, 594.0, 439.0] minutes, [Mood]: 3 out of 5; What would be the predicted fatigue?",
+        "answer": "The predicted fatigue level is 2."
+    },
+    {
+        "index": 267,
+        "task": "fatigue",
+        "instruction": "You are a personalized healthcare agent trained to predict fatigue score which ranges from 0 to 5 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1274.0, 1516.0, 5769.0, 3888.0, 2016.0, 5453.0, 2278.0] steps, [Burned Calorories]: [159.0, 168.0, 513.0, 376.0, 194.0, 594.0, 243.0] calories, [Resting Heart Rate]: [63.08152770996094, 62.79084587097168, 62.6686487197876, 62.06328868865967, 60.88875389099121, 62.72559928894043, 63.85162162780762, 62.78622341156006, 0.0, 63.40362739562988, 63.47901439666748, 63.68655014038086, 61.53118324279785, 62.020291328430176] beats/min, [SleepMinutes]: [393.0, 69.0, 451.0, 358.0, 407.0, 400.0, 420.0, 385.0, 471.0, 291.0, 519.0] minutes, [Mood]: 3 out of 5; What would be the predicted fatigue?",
+        "answer": "The predicted fatigue level is 3."
+    }
+]

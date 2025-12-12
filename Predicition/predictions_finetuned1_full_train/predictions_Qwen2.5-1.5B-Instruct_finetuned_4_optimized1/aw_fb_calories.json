@@ -1,0 +1,1198 @@
+[
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.25 steps, [Heart Rate]: 105.26 beats/min, [Duration]: 67.52, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 48.9 calories.\nYou have been provided with the following information:\n- Steps: 7.25\n- Heart Rate: 105.26 bpm\n- Duration: 67.52 min\n- Activity",
+        "true_result": "The predicted calorie burn is 63.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.39 steps, [Heart Rate]: 83.20 beats/min, [Duration]: 19.60, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 4.5 calories.\nYou have been provided with the following information:\n- Steps: 10.39\n- Heart Rate: 83.20 BPM\n- Duration: 19.60 minutes\n- Activity Type",
+        "true_result": "The predicted calorie burn is 15.54425."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 15.45 steps, [Heart Rate]: 85.11 beats/min, [Duration]: 159.57, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 26.3 calories.\nYou have been provided with the following information:\n- Steps: 15.45\n- Heart Rate: 85.11 beats per minute (bpm)\n- Duration: 159.",
+        "true_result": "The predicted calorie burn is 21.3825517241379."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 69.60 steps, [Heart Rate]: 83.67 beats/min, [Duration]: 5.37, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 12.4 calories.\nYou have been provided with the following information:\n- Steps: 69.60\n- Heart Rate: 83.67 bpm\n- Duration: 5.37 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 1.209."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.75 steps, [Heart Rate]: 91.22 beats/min, [Duration]: 8.92, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 30 calories.\nYou have been provided with the following information:\n- Steps: 8.75\n- Heart Rate: 91.22 bpm\n- Duration: 8.92 min\n- Activity Type: Running (",
+        "true_result": "The predicted calorie burn is 17.683."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.27 steps, [Heart Rate]: 75.80 beats/min, [Duration]: 7.05, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 136 calories.\nYou have been provided with the following information:\n- Steps: 2.27\n- Heart Rate: 75.80 bpm (beats per minute)\n- Duration: 7.05 minutes\n",
+        "true_result": "The predicted calorie burn is 23.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1345.00 steps, [Heart Rate]: 113.25 beats/min, [Duration]: 1.28, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 67.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.676."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.67 steps, [Heart Rate]: 87.00 beats/min, [Duration]: 0.97, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 2.5 calories.\nYou have been assigned as an expert in predicting the calorie burn from your extensive training with various users' data. Your task involves understanding the relationship between different factors such as heart rate, duration of activity, and step count to estimate",
+        "true_result": "The predicted calorie burn is 0.238833333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 3.75 steps, [Heart Rate]: 76.08 beats/min, [Duration]: 40.58, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 129 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET Value represents the metabolic equivalent of the activity type, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 77.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 166.00 steps, [Heart Rate]: 184.92 beats/min, [Duration]: 0.16, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 35.0 calories.\nYou have been provided with the following information:\n- Steps: 166.00\n- Heart Rate: 184.92 bpm\n- Duration: 0.16\n- Activity",
+        "true_result": "The predicted calorie burn is 0.61."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.76 steps, [Heart Rate]: 77.02 beats/min, [Duration]: 38.51, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 4.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100)\nWhere MET value represents the metabolic equivalent of the activity level, which in this case is 2",
+        "true_result": "The predicted calorie burn is 28.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.94 steps, [Heart Rate]: 76.68 beats/min, [Duration]: 117.46, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 205. \nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 92.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 180.31 steps, [Heart Rate]: 84.21 beats/min, [Duration]: 55.79, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 6.5 calories.\nYou have been provided with the following information:\n- Steps: 180.31\n- Heart Rate: 84.21 bpm\n- Duration: 55.79 minutes\n- Activity",
+        "true_result": "The predicted calorie burn is 18.3831428571429."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.10 steps, [Heart Rate]: 77.27 beats/min, [Duration]: 5.22, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 3.6 calories.\nYou have been assigned as an expert in predicting the calorie burn from your extensive training with various users' data. Your task involves understanding the relationship between different factors such as heart rate, duration of activity, and step count to estimate",
+        "true_result": "The predicted calorie burn is 2.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 43.98 steps, [Heart Rate]: 75.20 beats/min, [Duration]: 103.23, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 6.5 calories.\nYou have been provided with the following details:\n- Steps: 43.98\n- Heart Rate: 75.20 bpm (beats per minute)\n- Duration: 103.2",
+        "true_result": "The predicted calorie burn is 17.549875."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.75 steps, [Heart Rate]: 78.45 beats/min, [Duration]: 16.58, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.3 calories.\nYou have been provided with the following information:\n- Steps: 10.75\n- Heart Rate: 78.45 bpm\n- Duration: 16.58 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 3.28762546296296."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 70.66 steps, [Heart Rate]: 78.45 beats/min, [Duration]: 5.81, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 23.9 calories.\nYou have been provided with the following information:\n- Steps: 70.66\n- Heart Rate: 78.45 bpm\n- Duration: 5.81 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 1.037."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 125.00 steps, [Heart Rate]: 85.00 beats/min, [Duration]: 0.49, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 36.7 calories.\nYou have been provided with the following information:\n- Steps: 125.000\n- Heart Rate: 85.000 bpm\n- Duration: 0.49\n-",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 11.35 steps, [Heart Rate]: 77.32 beats/min, [Duration]: 14.34, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 60.8 calories.\nYou have been provided with the following information:\n- Steps: 11.35\n- Heart Rate: 77.32 bpm\n- Duration: 14.34 min\n- Activity",
+        "true_result": "The predicted calorie burn is 15.9211875."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.97 steps, [Heart Rate]: 76.68 beats/min, [Duration]: 1.10, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 25 calories.\nYou have been provided with the following information:\n- Steps: 6.97\n- Heart Rate: 76.68 bpm\n- Duration: 1.10\n- Activity Type: Running (3",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 97.00 steps, [Heart Rate]: 63.38 beats/min, [Duration]: 24.58, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 10.5 calories.\nYou have been provided with the following information:\n- Steps: 97.00\n- Heart Rate: 63.38 bpm\n- Duration: 24.58 min\n- Activity",
+        "true_result": "The predicted calorie burn is 20.5462."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 87.23 steps, [Heart Rate]: 91.00 beats/min, [Duration]: 2.55, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 4.6 calories.\nYou have been provided with the following information:\n- Steps: 87.23\n- Heart Rate: 91.00 bpm (beats per minute)\n- Duration: 2.55 minutes",
+        "true_result": "The predicted calorie burn is 0.3885."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.39 steps, [Heart Rate]: 76.76 beats/min, [Duration]: 5.27, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 14.8 calories.\nYou have been provided with the following information:\n- Steps: 7.39\n- Heart Rate: 76.76 beats per minute (bpm)\n- Duration: 5.27 minutes",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 179.25 steps, [Heart Rate]: 115.25 beats/min, [Duration]: 2.57, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 36.4 calories.\nYou have successfully completed another task! Thank you for using our service. We hope we can serve you well and meet all your expectations. If you have any questions or need help with something else, feel free to ask.",
+        "true_result": "The predicted calorie burn is 0.459333333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 19.92 steps, [Heart Rate]: 79.50 beats/min, [Duration]: 23.69, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 48.5 calories.\nYou have been provided with the following information:\n- Steps: 19.92\n- Heart Rate: 79.50 bpm\n- Duration: 23.69 min\n- Activity",
+        "true_result": "The predicted calorie burn is 15.49475."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.68 steps, [Heart Rate]: 76.63 beats/min, [Duration]: 137.98, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 205.4 calories.\nYou have been provided with the following information:\n- Steps: 6.68\n- Heart Rate: 76.63 beats per minute (bpm)\n- Duration: 137.",
+        "true_result": "The predicted calorie burn is 89.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 159.89 beats/min, [Duration]: 37.63, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 24.5 calories.\nYou have been provided with the following information:\n- Steps: 1.000\n- Heart Rate: 159.89 bpm\n- Duration: 37.63 min\n-",
+        "true_result": "The predicted calorie burn is 35.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 82.00 steps, [Heart Rate]: 87.45 beats/min, [Duration]: 24.84, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 163 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 1900\nWhere MET value represents the metabolic equivalent of the activity level, and it can range from ",
+        "true_result": "The predicted calorie burn is 19.872."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 20.93 steps, [Heart Rate]: 160.08 beats/min, [Duration]: 0.03, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 4.5 calories.\nYou have been provided with the following information:\n- Steps: 20.93\n- Heart Rate: 160.08 bpm\n- Duration: 0.03 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 0.061."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 151.00 steps, [Heart Rate]: 147.58 beats/min, [Duration]: 226.30, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 19.5 calories.\nYou have successfully completed your first task! You will now proceed to the next one. Please note that you can only perform this task if when you are in a secure environment with no access to external databases or internet connections.",
+        "true_result": "The predicted calorie burn is 37.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.50 steps, [Heart Rate]: 76.59 beats/min, [Duration]: 79.78, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 124 calories.\nYou have been provided with the following information:\n- Steps: 6.50\n- Heart Rate: 76.59 bpm\n- Duration: 79.78 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 87.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.82 steps, [Heart Rate]: 60.38 beats/min, [Duration]: 1.90, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 47.5 calories.\nYou have been provided with the following information:\n- Steps: 5.82\n- Heart Rate: 60.38 bpm\n- Duration: 1.90 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 2.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.88 steps, [Heart Rate]: 75.92 beats/min, [Duration]: 9.72, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 0.63 calories.\nYou have been assigned as an expert in predicting the calorie burn from your extensive training with various users' data. Your task involves understanding the relationship between different factors such as heart rate, duration of activity, and the type of",
+        "true_result": "The predicted calorie burn is 3.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 593.00 steps, [Heart Rate]: 80.41 beats/min, [Duration]: 34.12, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 67.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, which in this case is sitting",
+        "true_result": "The predicted calorie burn is 15.3544666666667."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 155.00 beats/min, [Duration]: 3.48, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.6 calories.\nYou have been provided with the following information:\n- Steps: 1.00\n- Heart Rate: 155.00 bpm\n- Duration: 3.48 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 120.00 steps, [Heart Rate]: 95.88 beats/min, [Duration]: 1.06, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 37.4 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 60\nWhere MET value represents the metabolic equivalent of activity, which indicates how much energy is expended per unit",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 3.67 steps, [Heart Rate]: 85.33 beats/min, [Duration]: 0.43, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 1.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity level, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 0.252."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.89 steps, [Heart Rate]: 75.92 beats/min, [Duration]: 9.13, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 0.64 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, which is calculated as follows:\n",
+        "true_result": "The predicted calorie burn is 3.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 47.50 steps, [Heart Rate]: 94.60 beats/min, [Duration]: 0.43, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 18.2 calories.\nYou have been provided with the following information:\n- Steps: 47.50\n- Heart Rate: 94.60 bpm\n- Duration: 0.43\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.252."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 3.00 steps, [Heart Rate]: 133.71 beats/min, [Duration]: 8.30, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 25 calories.\nYou have been provided with the following information:\n- Steps: 3.00\n- Heart Rate: 133.71 beats/minute\n- Duration: 8.30 minutes\n- Activity Type",
+        "true_result": "The predicted calorie burn is 19.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.68 steps, [Heart Rate]: 75.70 beats/min, [Duration]: 63.46, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 29.5 calories.\nYou have been provided with the following information:\n- Steps: 1.68\n- Heart Rate: 75.70 BPM\n- Duration: 63.46 minutes\n- Activity Type",
+        "true_result": "The predicted calorie burn is 95.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.33 steps, [Heart Rate]: 67.82 beats/min, [Duration]: 103.45, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 9.5 calories.\nYou have been provided with the following information:\n- Steps: 8.33\n- Heart Rate: 67.82 beats per minute (bpm)\n- Duration: 103.45",
+        "true_result": "The predicted calorie burn is 60.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.82 steps, [Heart Rate]: 76.28 beats/min, [Duration]: 0.66, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 13.9 calories.\nYou have been provided with the following information:\n- Steps: 4.82\n- Heart Rate: 76.28 bpm\n- Duration: 0.66 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 146.56 beats/min, [Duration]: 301.82, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 7.9 calories.\nYou have been provided with the following information:\n- Steps: 1.000\n- Heart Rate: 146.56 bpm\n- Duration: 301.82 seconds\n-",
+        "true_result": "The predicted calorie burn is 83.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 90.00 steps, [Heart Rate]: 104.00 beats/min, [Duration]: 3.59, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 267 calories.\nYou have been provided with the following information:\n- Steps: 90.00\n- Heart Rate: 104.00\n- Duration: 3.59\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 4.612."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.30 steps, [Heart Rate]: 76.74 beats/min, [Duration]: 1.74, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 25 calories.\nYou have been provided with the following information:\n- Steps: 7.30\n- Heart Rate: 76.74 beats per minute (bpm)\n- Duration: 1.74 minutes\n-",
+        "true_result": "The predicted calorie burn is 2.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 13.43 steps, [Heart Rate]: 74.57 beats/min, [Duration]: 18.85, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 60.9 calories.\nYou have been provided with the following information for your reference:\n- **Steps**: This represents the number of steps taken during the activity.\n- **Heart Rate**: This indicates the heart rate in beats per minute (BPM",
+        "true_result": "The predicted calorie burn is 14.1397142857143."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 879.20 steps, [Heart Rate]: 92.55 beats/min, [Duration]: 1.38, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 46.5 calories.\nYou have successfully completed your first workout! Your heart rate has dropped from 120 bpm to 92 bpm in just 1 minute of walking at a pace of 1.3 miles per hour. You",
+        "true_result": "The predicted calorie burn is 0.757."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.29 steps, [Heart Rate]: 76.37 beats/min, [Duration]: 13.76, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 4.8 calories.\nYou have been provided with the following information:\n- Steps: 5.29\n- Heart Rate: 76.37 bpm\n- Duration: 13.76 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 2.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.46 steps, [Heart Rate]: 76.59 beats/min, [Duration]: 335.14, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.8 calories.\nYou have been provided with the following information:\n- Steps: 6.46\n- Heart Rate: 76.59 beats per minute (bpm)\n- Duration: 335.14",
+        "true_result": "The predicted calorie burn is 62.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1500.67 steps, [Heart Rate]: 108.25 beats/min, [Duration]: 0.30, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 49.5 calories.\nUser's Steps: 1500.67, Heart Rate: 108.25 bpm, Duration: 0.3, Activity Type: Running 7 METs, MET Value:",
+        "true_result": "The predicted calorie burn is 0.738."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.28 steps, [Heart Rate]: 75.81 beats/min, [Duration]: 45.95, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 30 calories.\nYou have been provided with the following information:\n- Steps: 2.28\n- Heart Rate: 75.81 bpm\n- Duration: 45.95 min\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 96.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 85.00 steps, [Heart Rate]: 76.17 beats/min, [Duration]: 1.09, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 3.4 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100)\nWhere MET value represents the metabolic equivalent of walking at a self-paced pace, which is set at",
+        "true_result": "The predicted calorie burn is 0.662."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.57 steps, [Heart Rate]: 76.61 beats/min, [Duration]: 117.46, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 208 calories.\nYou have been provided with the following information:\n- Steps: 6.57\n- Heart Rate: 76.61 beats per minute (bpm)\n- Duration: 117.46",
+        "true_result": "The predicted calorie burn is 92.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 22.48 steps, [Heart Rate]: 86.72 beats/min, [Duration]: 1.65, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 3.9 calories.\nYou have successfully completed another task! Thank you for using our service. We hope you enjoyed your experience here. Please feel free to visit us again soon. Have a great day ahead!<|endoftext|>",
+        "true_result": "The predicted calorie burn is 0.252."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.12 steps, [Heart Rate]: 67.93 beats/min, [Duration]: 57.14, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 108 calories.\nUser's Steps: 6.12, Heart Rate: 67.93 bpm, Duration: 57.14 min, Activity Type: Running 5 METs, MET Value: 5",
+        "true_result": "The predicted calorie burn is 80.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.75 steps, [Heart Rate]: 168.86 beats/min, [Duration]: 0.03, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 2.4 calories.\nYou have been provided with the following information:\n- Steps: 6.75\n- Heart Rate: 168.86 bpm (beats per minute)\n- Duration: 0.03 hours",
+        "true_result": "The predicted calorie burn is 0.061."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.66 steps, [Heart Rate]: 76.25 beats/min, [Duration]: 38.47, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 109.5 calories. \n\nTo calculate this, we use the formula:\n\\[ \\text{Calories Burned} = (\\text{MET Value} \\times \\text{Duration}) / 100 \\]\nwhere MET (",
+        "true_result": "The predicted calorie burn is 73.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.87 steps, [Heart Rate]: 85.00 beats/min, [Duration]: 17.76, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 2.3 calories.\nYou have been assigned as an expert in predicting the calorie burn based on your training with various datasets of users' physiological data and activity types. Your task involves understanding the relationship between different factors such as heart rate, duration, and",
+        "true_result": "The predicted calorie burn is 6.439."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.48 steps, [Heart Rate]: 56.03 beats/min, [Duration]: 27.59, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 1.5 calories.\nYou have been provided with the following details:\n- Steps: 5.48\n- Heart Rate: 56.03 bpm (beats per minute)\n- Duration: 27.59 minutes",
+        "true_result": "The predicted calorie burn is 4.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.46 steps, [Heart Rate]: 84.75 beats/min, [Duration]: 0.25, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 19.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere:\n- MET Value represents the amount of energy expended per kilogram of body weight during",
+        "true_result": "The predicted calorie burn is 0.252333333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.79 steps, [Heart Rate]: 76.84 beats/min, [Duration]: 16.20, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 3.5 calories.\nYou have been provided with the following information:\n- Steps: 7.79\n- Heart Rate: 76.84 beats per minute (bpm)\n- Duration: 16.20 minutes",
+        "true_result": "The predicted calorie burn is 3.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.42 steps, [Heart Rate]: 76.39 beats/min, [Duration]: 16.20, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 18.5 calories.\nYou have been provided with the following information:\n- Steps: 5.42\n- Heart Rate: 76.39 bpm (beats per minute)\n- Duration: 16.20",
+        "true_result": "The predicted calorie burn is 3.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 65.50 steps, [Heart Rate]: 79.00 beats/min, [Duration]: 1.76, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 2.3 calories.\nYou have been assigned as an expert in predicting the calorie burn based on your training with various datasets of users' physiological data and activity types. Your task involves understanding the relationship between different factors such as heart rate, duration, and",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 3.03 steps, [Heart Rate]: 134.71 beats/min, [Duration]: 117.36, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 25.9 calories.\nYou have been provided with the following information:\n- Steps: 3.03\n- Heart Rate: 134.71 beats per minute (bpm)\n- Duration: 117.",
+        "true_result": "The predicted calorie burn is 48.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.10 steps, [Heart Rate]: 121.00 beats/min, [Duration]: 0.27, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 4.9 calories.\nYou have been provided with the following information:\n- Steps: 5.10\n- Heart Rate: 121.00 beats/minute\n- Duration: 0.27 minutes\n- Activity",
+        "true_result": "The predicted calorie burn is 0.2495."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 130.00 steps, [Heart Rate]: 127.67 beats/min, [Duration]: 0.30, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 48.9 calories.\nYou have been provided with the following information:\n- Steps: 130.00\n- Heart Rate: 127.67 bpm\n- Duration: 0.30\n- Activity",
+        "true_result": "The predicted calorie burn is 0.671."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.76 steps, [Heart Rate]: 76.46 beats/min, [Duration]: 67.13, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 208 calories.\nYou have been provided with the following information:\n- Steps: 5.76\n- Heart Rate: 76.46 beats/minute\n- Duration: 67.13 minutes\n- Activity",
+        "true_result": "The predicted calorie burn is 73.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 142.00 steps, [Heart Rate]: 183.58 beats/min, [Duration]: 0.19, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 6.5 calories.\nYou have successfully completed your first training session! You will now use this experience to improve your performance in future sessions. Your goal is to increase accuracy by 1% for each subsequent session. For example, if after two sessions",
+        "true_result": "The predicted calorie burn is 0.61."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 58.20 steps, [Heart Rate]: 103.67 beats/min, [Duration]: 7.59, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 4.5 calories.\nYou have been provided with the following information:\n- Steps: 58.20\n- Heart Rate: 103.67 bpm\n- Duration: 7.59 minutes\n- Activity Type",
+        "true_result": "The predicted calorie burn is 1.12175."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.75 steps, [Heart Rate]: 139.77 beats/min, [Duration]: 0.19, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 26.8 calories.\nYou have been provided with the following information:\n- Steps: 4.75\n- Heart Rate: 139.77 bpm\n- Duration: 0.19\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.245."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 110.00 steps, [Heart Rate]: 84.77 beats/min, [Duration]: 0.38, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 26.9 calories.\nYou have been provided with the following information:\n- Steps: 110.000\n- Heart Rate: 84.77 beats per minute (bpm)\n- Duration: 0.",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 204.14 steps, [Heart Rate]: 76.00 beats/min, [Duration]: 61.05, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 38.9 calories.\nYou have been provided with the following information:\n- Steps: 204.14\n- Heart Rate: 76.00 bpm\n- Duration: 61.05 min\n-",
+        "true_result": "The predicted calorie burn is 10.6834."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 555.29 steps, [Heart Rate]: 126.67 beats/min, [Duration]: 1.88, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 30 calories.\nYou have been assigned as an expert in predicting the calorie burn based on your training with various datasets of users' physiological data and activity types. Your task involves understanding the relationship between different factors such as heart rate, duration, and type",
+        "true_result": "The predicted calorie burn is 0.671."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 21.75 steps, [Heart Rate]: 79.67 beats/min, [Duration]: 0.09, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 34.8 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET Value represents the metabolic equivalent of the activity type, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.238666666666667."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.17 steps, [Heart Rate]: 89.00 beats/min, [Duration]: 0.41, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 3.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 60)\nWhere MET value represents the metabolic equivalent of the activity level, and Duration represents the time spent in that",
+        "true_result": "The predicted calorie burn is 0.248833333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.36 steps, [Heart Rate]: 76.94 beats/min, [Duration]: 88.66, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 10.5 calories.\nYou have successfully completed another self-paced walk of approximately 8 minutes at a pace of about 8.36 steps per minute. Your heart rate was measured at around 76.94 beats per minute during",
+        "true_result": "The predicted calorie burn is 68.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.08 steps, [Heart Rate]: 76.70 beats/min, [Duration]: 7.33, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 152 calories.\nYou have been provided with the following information:\n- Steps: 7.08\n- Heart Rate: 76.70 beats/minute\n- Duration: 7.33 minutes\n- Activity Type",
+        "true_result": "The predicted calorie burn is 9.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 163.00 steps, [Heart Rate]: 159.11 beats/min, [Duration]: 24.95, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 18.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 73.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.77 steps, [Heart Rate]: 76.27 beats/min, [Duration]: 41.62, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 30 calories.\nYou have been provided with the following information:\n- Steps: 4.77\n- Heart Rate: 76.27 bpm\n- Duration: 41.62 min\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 77.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1016.00 steps, [Heart Rate]: 168.67 beats/min, [Duration]: 0.17, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 25.3 calories.\nYou have successfully completed your first training session! Your goal for today is to burn at least 400 calories. You've already burned 25.3 calories in this session. To reach your goal, you",
+        "true_result": "The predicted calorie burn is 0.6125."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 155.00 beats/min, [Duration]: 3.48, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.6 calories.\nYou have been provided with the following information:\n- Steps: 1.00\n- Heart Rate: 155.00 bpm\n- Duration: 3.48 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 27.56 steps, [Heart Rate]: 78.49 beats/min, [Duration]: 88.01, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 3.5 calories.\nYou have successfully completed another task! Thank you for using our service. We hope you enjoyed your experience here. Please feel free to visit us again soon. Have a great day ahead! Based on the provided sensor readings, which",
+        "true_result": "The predicted calorie burn is 18.7026315789474."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 164.67 steps, [Heart Rate]: 114.71 beats/min, [Duration]: 0.43, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 28.9 calories.\nYou have been provided with the following information:\n- Steps: 164.67\n- Heart Rate: 114.71 beats per minute (bpm)\n- Duration: 0.",
+        "true_result": "The predicted calorie burn is 0.641."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 24.86 steps, [Heart Rate]: 70.44 beats/min, [Duration]: 12.10, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 35.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, which is calculated as follows:\n",
+        "true_result": "The predicted calorie burn is 4.1126."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.43 steps, [Heart Rate]: 59.96 beats/min, [Duration]: 79.31, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 208 calories.\nYou have been provided with the following information:\n- Steps: 6.43\n- Heart Rate: 59.96 bpm\n- Duration: 79.31 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 69.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.71 steps, [Heart Rate]: 130.40 beats/min, [Duration]: 0.13, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 26.8 calories.\nYou have been provided with the following information:\n- Steps: 4.71\n- Heart Rate: 130.40 bpm\n- Duration: 0.13\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.25."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 128.00 steps, [Heart Rate]: 109.12 beats/min, [Duration]: 0.34, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 67 calories.\nYou have been provided with the following information:\n- Steps: 128.00\n- Heart Rate: 109.12 bpm\n- Duration: 0.34\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 60.00 steps, [Heart Rate]: 97.43 beats/min, [Duration]: 32.20, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 15.8 calories.\nYou have been provided with the following information:\n- Steps: 60.00\n- Heart Rate: 97.43\n- Duration: 32.20\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 19.6410666666667."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.97 steps, [Heart Rate]: 77.06 beats/min, [Duration]: 84.49, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 15.3 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100)\nWhere MET value represents the metabolic equivalent of the activity level, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 73.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.26 steps, [Heart Rate]: 131.00 beats/min, [Duration]: 0.17, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 4.9 calories.\nYou have been provided with the following information:\n- Steps: 5.26\n- Heart Rate: 131.00 bpm\n- Duration: 0.17\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 0.248833333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.63 steps, [Heart Rate]: 77.37 beats/min, [Duration]: 18.66, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.4 calories.\nYou have been provided with the following information:\n- Steps: 10.63\n- Heart Rate: 77.37 beats/min\n- Duration: 18.66\n- Activity Type",
+        "true_result": "The predicted calorie burn is 2.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 163.00 steps, [Heart Rate]: 177.45 beats/min, [Duration]: 0.23, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 9.8 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100)\nWhere:\n- MET Value represents the metabolic equivalent of the activity\n- Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.7015."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 452.50 steps, [Heart Rate]: 100.22 beats/min, [Duration]: 1.08, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 36.7 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, which is determined by the duration",
+        "true_result": "The predicted calorie burn is 0.468."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 19.79 steps, [Heart Rate]: 81.93 beats/min, [Duration]: 0.10, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 25.6 calories.\nYou have been provided with the following information:\n- Steps: 19.79\n- Heart Rate: 81.93 bpm\n- Duration: 0.1\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 0.2785."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.50 steps, [Heart Rate]: 92.74 beats/min, [Duration]: 0.31, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 6.8 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity level, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 0.1915."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 23.44 steps, [Heart Rate]: 79.94 beats/min, [Duration]: 23.60, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 15.8 calories.\nYou have been provided with the following information:\n- Steps: 23.44\n- Heart Rate: 79.94 bpm\n- Duration: 23.60 minutes\n- Activity",
+        "true_result": "The predicted calorie burn is 15.434125."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 13.50 steps, [Heart Rate]: 78.51 beats/min, [Duration]: 5.80, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 264 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 12.324."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 115.00 steps, [Heart Rate]: 91.35 beats/min, [Duration]: 0.86, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 47.5 calories.\nYou have been provided with the following information:\n- Steps: 115.00\n- Heart Rate: 91.35 bpm\n- Duration: 0.86\n- Activity Type",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 757.60 steps, [Heart Rate]: 65.75 beats/min, [Duration]: 5.68, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 12.3 calories.\nYou have been provided with the following information:\n- Steps: 757.60\n- Heart Rate: 65.75 bpm\n- Duration: 5.68 min\n- Activity",
+        "true_result": "The predicted calorie burn is 0.85925."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.16 steps, [Heart Rate]: 75.60 beats/min, [Duration]: 36.36, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.4 calories.\nYou have been provided with the following information:\n- Steps: 1.16\n- Heart Rate: 75.60 bpm (beats per minute)\n- Duration: 36.36 minutes",
+        "true_result": "The predicted calorie burn is 5.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.42 steps, [Heart Rate]: 75.83 beats/min, [Duration]: 0.47, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 16.9 calories.\nYou have been provided with the following information:\n- Steps: 2.42\n- Heart Rate: 75.83 bpm\n- Duration: 0.47 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 20.21 steps, [Heart Rate]: 63.78 beats/min, [Duration]: 7.41, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 9.8 calories.\nYou have been provided with the following information:\n- Steps: 20.21\n- Heart Rate: 63.78 bpm\n- Duration: 7.41 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 15.159."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 458.94 steps, [Heart Rate]: 82.08 beats/min, [Duration]: 5.94, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 136 calories.\nYou have been provided with the following information:\n- Steps: 458.94\n- Heart Rate: 82.08 beats per minute (bpm)\n- Duration: 5.94",
+        "true_result": "The predicted calorie burn is 13.6931428571429."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 154.17 steps, [Heart Rate]: 118.25 beats/min, [Duration]: 1.41, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 0.63 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.61."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 155.00 beats/min, [Duration]: 18.14, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 26.3 calories.\nYou have been provided with the following information:\n- Steps: 1.000\n- Heart Rate: 155.000 bpm\n- Duration: 8.14 min\n-",
+        "true_result": "The predicted calorie burn is 73.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 289.57 steps, [Heart Rate]: 98.79 beats/min, [Duration]: 3.56, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 14.5 calories.\nYou have successfully completed another task! Thank you for using our service. We hope that we can continue to help you in the future. Please let us know if there is anything else we can assist with. Your personalized healthcare",
+        "true_result": "The predicted calorie burn is 0.636."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 74.00 steps, [Heart Rate]: 68.50 beats/min, [Duration]: 1.25, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 39.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity level, and duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.757."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 89.88 beats/min, [Duration]: 4.78, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 2.5 calories.\nYou have been provided with the following information:\n- Steps: 1.000\n- Heart Rate: 89.88 beats per minute (bpm)\n- Duration: 4.78 minutes",
+        "true_result": "The predicted calorie burn is 2.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 9.28 steps, [Heart Rate]: 71.75 beats/min, [Duration]: 70.69, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 34.5 calories.\nYou have successfully completed another self-paced walk of approximately 70 minutes at a pace that matches your current heart rate (71. 75 bpm) and activity type (self-pace walk). Based on your",
+        "true_result": "The predicted calorie burn is 41.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 80.00 steps, [Heart Rate]: 79.00 beats/min, [Duration]: 1.55, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 26.3 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere:\n- MET Value represents the metabolic equivalent of the activity type,\n- Duration represents the",
+        "true_result": "The predicted calorie burn is 4.30591866804693."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.77 steps, [Heart Rate]: 75.90 beats/min, [Duration]: 13.89, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 46.5 calories.\nYou have been provided with the following information:\n- Steps: 2.77\n- Heart Rate: 75.90 bpm\n- Duration: 13.89 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 35.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 303.33 steps, [Heart Rate]: 111.08 beats/min, [Duration]: 1.35, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 26.7 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, which is determined by the duration",
+        "true_result": "The predicted calorie burn is 0.584666666666667."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.33 steps, [Heart Rate]: 92.12 beats/min, [Duration]: 140.38, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 56.7 calories.\nYou have been provided with the following information:\n- Steps: 8.33\n- Heart Rate: 92.12 beats per minute (bpm)\n- Duration: 140.3",
+        "true_result": "The predicted calorie burn is 81.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 15.30 steps, [Heart Rate]: 76.75 beats/min, [Duration]: 17.37, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 248 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100)\nWhere MET value represents the metabolic equivalent of the activity level in question, and duration is the time",
+        "true_result": "The predicted calorie burn is 17.7222142857143."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 25.80 steps, [Heart Rate]: 77.00 beats/min, [Duration]: 9.64, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 13.5 calories.\nYou have been provided with the following information:\n- Steps: 25.80\n- Heart Rate: 77.00 bpm\n- Duration: 9.64 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 19.127."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 17.66 steps, [Heart Rate]: 72.67 beats/min, [Duration]: 3.69, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 4.8 calories.\nYou have been provided with the following information:\n- Steps: 17.66\n- Heart Rate: 72.67 beats per minute (bpm)\n- Duration: 3.69 minutes",
+        "true_result": "The predicted calorie burn is 0.517."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 134.91 beats/min, [Duration]: 7.17, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 25 calories.\nYou have been provided with the following information:\n- Steps: 1.000\n- Heart Rate: 134.91 bpm\n- Duration: 7.17 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 21.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 596.00 steps, [Heart Rate]: 63.85 beats/min, [Duration]: 24.65, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 17.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity level, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 20.611."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.13 steps, [Heart Rate]: 77.50 beats/min, [Duration]: 14.05, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 26.8 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100)\nWhere:\n- MET Value represents the amount of energy expended per kilogram of body weight during",
+        "true_result": "The predicted calorie burn is 15.5981333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.52 steps, [Heart Rate]: 76.79 beats/min, [Duration]: 5.27, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 13.4 calories.\nYou have not specified any activity type or duration, so we will assume you are lying down (lying) for now. Based on your heart rate of 76.79 beats per minute and the time spent at",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 126.00 steps, [Heart Rate]: 140.52 beats/min, [Duration]: 0.35, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 78.9 calories.\nUser's age: 30\nGender: Female\nHeight: 1.65 meters\nWeight: 60 kg\nThe predicted calorie burn is 78.9 calories. Based on the given",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 79.00 steps, [Heart Rate]: 77.83 beats/min, [Duration]: 1.05, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 46.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity level, and duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.04 steps, [Heart Rate]: 77.26 beats/min, [Duration]: 8.10, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 3.5 calories.\nYou have been assigned as an expert in predicting the calorie burn from your extensive training with various datasets. Your task involves understanding the relationship between different factors such as heart rate, duration of activity, and the type of activity (e",
+        "true_result": "The predicted calorie burn is 3.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 9.66 steps, [Heart Rate]: 82.52 beats/min, [Duration]: 202.79, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 13.4 calories.\nYou have no other information available for prediction. Based on the given sensor readings, we can calculate the predicted calorie burn using the following formula:\nCalorie Burn = (MET Value x Duration) / 100\n",
+        "true_result": "The predicted calorie burn is 27.173724137931."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 94.00 steps, [Heart Rate]: 89.18 beats/min, [Duration]: 1.79, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 2.5 calories.\nYou have been assigned as an expert in predicting the calorie burn from your extensive training with various datasets of users' physiological data and activity types. Your task involves understanding the relationship between different factors such as heart rate, duration, type",
+        "true_result": "The predicted calorie burn is 0.716."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.36 steps, [Heart Rate]: 76.38 beats/min, [Duration]: 5.56, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 12.4 calories.\nYou have been provided with the following information:\n- Steps: 5.36\n- Heart Rate: 76.38 bpm\n- Duration: 5.56 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.17 steps, [Heart Rate]: 118.64 beats/min, [Duration]: 0.16, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 23.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.252."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.63 steps, [Heart Rate]: 77.37 beats/min, [Duration]: 12.90, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 4.8 calories.\nYou have been provided with the following information:\n- Steps: 10.63\n- Heart Rate: 77.37 beats/min\n- Duration: 12.90 minutes\n- Activity",
+        "true_result": "The predicted calorie burn is 2.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.63 steps, [Heart Rate]: 77.37 beats/min, [Duration]: 14.71, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.8 calories.\nYou have been assigned as an expert in predicting the calorie burn for your clients. You have access to their latest sensor readings which include: Steps taken: 10.63, Heart rate: 77.3",
+        "true_result": "The predicted calorie burn is 2.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 28.85 steps, [Heart Rate]: 78.50 beats/min, [Duration]: 86.53, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 14.9 calories.\nYou have successfully completed another task! Thank you for using our service. We hope that we can continue to help you in the future. Please let us know if there is anything else we can assist with. Your personalized healthcare",
+        "true_result": "The predicted calorie burn is 18.3877894736842."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 731.60 steps, [Heart Rate]: 88.25 beats/min, [Duration]: 0.14, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 9.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere MET value represents the metabolic equivalent of activity, which indicates how much energy is expended per unit",
+        "true_result": "The predicted calorie burn is 0.061."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 24.25 steps, [Heart Rate]: 72.77 beats/min, [Duration]: 16.31, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 90.8 calories.\nYou have been provided with the following information:\n- Steps: 24.25\n- Heart Rate: 72.77 beats per minute (bpm)\n- Duration: 16.3",
+        "true_result": "The predicted calorie burn is 15.525."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 787.34 steps, [Heart Rate]: 57.00 beats/min, [Duration]: 1.71, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 26.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, which is calculated as follows:\n",
+        "true_result": "The predicted calorie burn is 0.516."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 51.39 steps, [Heart Rate]: 170.00 beats/min, [Duration]: 0.20, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 46.8 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere:\n- MET Value represents the metabolic equivalent of the activity type\n- Duration represents the",
+        "true_result": "The predicted calorie burn is 0.493766425120773."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.76 steps, [Heart Rate]: 44.80 beats/min, [Duration]: 13.79, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 5.5 calories.\nYou have been provided with the following information:\n- Steps: 2.76\n- Heart Rate: 44.80 bpm (beats per minute)\n- Duration: 13.79 minutes",
+        "true_result": "The predicted calorie burn is 4.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 3.83 steps, [Heart Rate]: 76.10 beats/min, [Duration]: 40.17, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 29.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 73.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 122.00 steps, [Heart Rate]: 71.75 beats/min, [Duration]: 0.30, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 46.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100)\nWhere:\n- MET Value represents the metabolic equivalent of the activity\n- Duration represents the time",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 3.46 steps, [Heart Rate]: 61.90 beats/min, [Duration]: 15.90, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 27.8 calories.\nYou have been provided with the following information:\n- Steps: 3.46\n- Heart Rate: 61.90 bpm\n- Duration: 15.90 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 18.4418."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.02 steps, [Heart Rate]: 75.76 beats/min, [Duration]: 13.33, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 49.8 calories.\nYou have been provided with the following information:\n- Steps: 2.02\n- Heart Rate: 75.76 bpm\n- Duration: 13.33 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 24.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 571.50 steps, [Heart Rate]: 90.50 beats/min, [Duration]: 23.38, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 46.5 calories.\nYou have been provided with the following information:\n- Steps: 571.50\n- Heart Rate: 90.50 bpm\n- Duration: 23.38 min\n-",
+        "true_result": "The predicted calorie burn is 20.0333333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 386.75 steps, [Heart Rate]: 111.00 beats/min, [Duration]: 9.13, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 24.5 calories.\nYou have been provided with the following information:\n- Steps: 386.75\n- Heart Rate: 111.00 bpm\n- Duration: 9.13 min\n-",
+        "true_result": "The predicted calorie burn is 9.59163636363636."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 387.88 steps, [Heart Rate]: 78.50 beats/min, [Duration]: 0.78, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 126 calories.\nYou have been provided with the following information:\n- Steps: 387.88\n- Heart Rate: 78.50 bpm\n- Duration: 0.78\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 2.2404."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.29 steps, [Heart Rate]: 76.37 beats/min, [Duration]: 5.22, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 14.8 calories.\nYou have been provided with the following information:\n- Steps: 5.29\n- Heart Rate: 76.37 bpm\n- Duration: 5.22 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 137.88 beats/min, [Duration]: 48.32, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 69.5 calories.\nYou have been provided with the following information for predicting the calorie burn during exercise:\n- Steps: This refers to the number of steps taken during the activity. More steps generally indicate more energy expenditure.\n- Heart Rate: This",
+        "true_result": "The predicted calorie burn is 79.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 437.75 steps, [Heart Rate]: 78.71 beats/min, [Duration]: 4.88, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 20.6 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, which is calculated as follows:\n",
+        "true_result": "The predicted calorie burn is 1.9365."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.62 steps, [Heart Rate]: 75.87 beats/min, [Duration]: 2.83, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 10.9 calories.\nUser's Steps: 2.62, Heart Rate: 75.87 bpm, Duration: 2.83 min, Activity Type: Running (7 METs), MET Value: 7",
+        "true_result": "The predicted calorie burn is 6.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 12.61 steps, [Heart Rate]: 75.86 beats/min, [Duration]: 5.51, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 0. Based on the given sensor readings, the activity type is sitting with a duration of 5.51 minutes. Since the heart rate during this activity is below the threshold for light-intensity exercise (which typically requires at least 13",
+        "true_result": "The predicted calorie burn is 2.065."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1159.00 steps, [Heart Rate]: 108.00 beats/min, [Duration]: 0.35, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 26.7 calories.\nUser's Steps: 1159.000, Heart Rate: 108.000 BPM, Duration: 0.35, Activity Type: Running 5 METs,",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 124.00 steps, [Heart Rate]: 123.67 beats/min, [Duration]: 1.11, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 5.8 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 1.9\nWhere MET value represents the metabolic equivalent of the activity level, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 152.00 steps, [Heart Rate]: 122.26 beats/min, [Duration]: 0.24, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 38.9 calories.\nYou have been provided with the following information:\n- Steps: 152.00\n- Heart Rate: 122.26 bpm\n- Duration: 0.24\n- Activity",
+        "true_result": "The predicted calorie burn is 0.7045."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 26.25 steps, [Heart Rate]: 75.16 beats/min, [Duration]: 16.57, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 30 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100)\nWhere MET value represents the metabolic equivalent of walking at a self-paced pace, and Duration is in minutes",
+        "true_result": "The predicted calorie burn is 15.7783333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 12.03 steps, [Heart Rate]: 91.70 beats/min, [Duration]: 17.71, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 45.6 calories.\nYou have been provided with the following information:\n- Steps: 12.03\n- Heart Rate: 91.70 BPM\n- Duration: 17.71 minutes\n- Activity",
+        "true_result": "The predicted calorie burn is 11.6686."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 98.00 steps, [Heart Rate]: 136.50 beats/min, [Duration]: 9.39, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 24.5 calories.\nYou have been provided with the following information:\n- Steps: 98.00\n- Heart Rate: 136.50 bpm\n- Duration: 9.39 min\n- Activity",
+        "true_result": "The predicted calorie burn is 21.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.72 steps, [Heart Rate]: 76.82 beats/min, [Duration]: 94.44, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 10.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 30\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 68.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.67 steps, [Heart Rate]: 99.42 beats/min, [Duration]: 0.20, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 13.8 calories.\nYou have been provided with the following information:\n- Steps: 5.67\n- Heart Rate: 99.42 bpm\n- Duration: 0.20 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.245."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 19.00 steps, [Heart Rate]: 17.20 beats/min, [Duration]: 109.68, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 35.4 calories.\nYou have been provided with the following information:\n- Steps: 19.00\n- Heart Rate: 17.20 BPM\n- Duration: 109.68 minutes\n-",
+        "true_result": "The predicted calorie burn is 68.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.16 steps, [Heart Rate]: 75.60 beats/min, [Duration]: 271.43, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 18.9 calories.\nYou have successfully completed another task! Thank you for using our service. We hope that we can continue to help you in the future. Please let us know if there is anything else we can assist with. Your personalized healthcare",
+        "true_result": "The predicted calorie burn is 38.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.52 steps, [Heart Rate]: 77.78 beats/min, [Duration]: 0.37, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 16.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 1.5)\nWhere MET value represents the metabolic equivalent of the activity level, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.252."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 221.10 steps, [Heart Rate]: 62.60 beats/min, [Duration]: 7.97, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 348 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity level, and duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 18.9612."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 61.95 steps, [Heart Rate]: 75.57 beats/min, [Duration]: 15.34, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.8 calories.\nYou have been provided with the following information:\n- Steps: 61.95\n- Heart Rate: 75.57 bpm (beats per minute)\n- Duration: 15.34",
+        "true_result": "The predicted calorie burn is 3.28762546296296."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.26 steps, [Heart Rate]: 54.75 beats/min, [Duration]: 3.64, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 18.9 calories.\nYou have been provided with the following information:\n- Steps: 10.26\n- Heart Rate: 54.75 bpm\n- Duration: 3.64 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 9.7672."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 141.00 beats/min, [Duration]: 48.32, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 76.9 calories.\nUser's current heart rate is 141.00 beats per minute (bpm). This value falls within the range of 140-145 bpm, which corresponds to moderate intensity activity.",
+        "true_result": "The predicted calorie burn is 79.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.92 steps, [Heart Rate]: 89.17 beats/min, [Duration]: 0.28, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 36.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET Value represents the metabolic equivalent of the activity type, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.344666666666667."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 64.93 steps, [Heart Rate]: 78.45 beats/min, [Duration]: 18.79, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.5 calories.\nYou have been provided with the following details:\n- Steps: 64.93\n- Heart Rate: 78.45 beats per minute (bpm)\n- Duration: 18.79",
+        "true_result": "The predicted calorie burn is 3.28762546296296."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 70.49 steps, [Heart Rate]: 61.42 beats/min, [Duration]: 0.82, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 3.5 calories.\nYou have been assigned as an expert in predicting the calorie burn based on your training with various datasets of users' physiological data and activity types. Your task involves understanding the relationship between different factors such as heart rate, duration, and",
+        "true_result": "The predicted calorie burn is 0.2572."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.07 steps, [Heart Rate]: 57.77 beats/min, [Duration]: 61.64, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 289 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 65.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.77 steps, [Heart Rate]: 78.53 beats/min, [Duration]: 2.03, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 4.6 calories.\nYou have been provided with the following information:\n- Steps: 10.77\n- Heart Rate: 78.53 bpm\n- Duration: 2.03 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.344532850241546."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 34.00 steps, [Heart Rate]: 81.25 beats/min, [Duration]: 16.73, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 9.0 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 16.4098."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 884.00 steps, [Heart Rate]: 82.35 beats/min, [Duration]: 25.27, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 69.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity level, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 11.3730666666667."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 11.63 steps, [Heart Rate]: 78.45 beats/min, [Duration]: 18.49, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.5 calories.\nYou have been provided with the following information:\n- Steps: 11.63\n- Heart Rate: 78.45 beats per minute (bpm)\n- Duration: 18.49",
+        "true_result": "The predicted calorie burn is 3.92894756054131."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 145.00 steps, [Heart Rate]: 61.00 beats/min, [Duration]: 0.35, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 28.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere:\n- MET Value represents the amount of energy expended per unit time during the activity in",
+        "true_result": "The predicted calorie burn is 0.75."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.00 steps, [Heart Rate]: 133.75 beats/min, [Duration]: 0.31, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 4.6 calories.\nYou have been provided with the following information:\n- Steps: 8.00\n- Heart Rate: 133.75 bpm\n- Duration: 0.31\n- Activity Type: Self",
+        "true_result": "The predicted calorie burn is 0.23175."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 134.51 steps, [Heart Rate]: 58.81 beats/min, [Duration]: 0.87, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 2.6 calories.\nYou have been assigned as an expert in predicting the calorie burn based on your training with various datasets of users' physiological data and activity types. Your task involves understanding the relationship between different factors such as heart rate, duration, and",
+        "true_result": "The predicted calorie burn is 0.212333333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 152.00 beats/min, [Duration]: 66.67, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 48.9 calories.\nYou have been provided with the following information:\n- Steps: 1.000\n- Heart Rate: 152.000 bpm\n- Duration: 66.67 min\n",
+        "true_result": "The predicted calorie burn is 75.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 203.11 steps, [Heart Rate]: 85.00 beats/min, [Duration]: 1.13, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 4.67 calories.\nYou have been provided with the following information:\n- Steps: 203.11\n- Heart Rate: 85.00 bpm (beats per minute)\n- Duration: 1.1",
+        "true_result": "The predicted calorie burn is 0.2785."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.99 steps, [Heart Rate]: 76.69 beats/min, [Duration]: 65.96, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 102 calories.\nYou have been provided with the following information:\n- Steps: 6.99\n- Heart Rate: 76.69 bpm\n- Duration: 65.96 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 65.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.39 steps, [Heart Rate]: 77.32 beats/min, [Duration]: 15.22, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 4.68 calories.\nYou have been provided with the following information:\n- Steps: 10.39\n- Heart Rate: 77.32 beats per minute (bpm)\n- Duration: 15.2",
+        "true_result": "The predicted calorie burn is 2.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.94 steps, [Heart Rate]: 75.74 beats/min, [Duration]: 9.60, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 23.8 calories.\nYou have been provided with the following information:\n- Steps: 1.94\n- Heart Rate: 75.74 bpm\n- Duration: 9.60 minutes\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 25.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 398.67 steps, [Heart Rate]: 178.00 beats/min, [Duration]: 0.87, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 54.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 1.5\nWhere MET value represents the metabolic equivalent of the activity level, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.61."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.47 steps, [Heart Rate]: 73.58 beats/min, [Duration]: 19.66, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 10.5 calories.\nYou have successfully completed another self-paced walking session. Your heart rate has been monitored at 73.58 beats per minute for 19.66 minutes during this activity. Based on your current state of",
+        "true_result": "The predicted calorie burn is 15.1956666666667."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 422.50 steps, [Heart Rate]: 93.00 beats/min, [Duration]: 0.84, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 167 calories.\nYou have been provided with the following information:\n- Steps: 422.50\n- Heart Rate: 93.00 bpm\n- Duration: 0.84\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.25 steps, [Heart Rate]: 76.74 beats/min, [Duration]: 61.26, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 90.8 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET Value represents the metabolic equivalent of the activity type, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 68.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.67 steps, [Heart Rate]: 157.31 beats/min, [Duration]: 0.28, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 4.9 calories.\nYou have been provided with the following information:\n- Steps: 6.67\n- Heart Rate: 157.31 bpm\n- Duration: 0.28 hours\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.7015."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 63.00 steps, [Heart Rate]: 140.45 beats/min, [Duration]: 2.11, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 7.8 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, which is calculated as follows:\nMET",
+        "true_result": "The predicted calorie burn is 0.6435."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.22 steps, [Heart Rate]: 75.68 beats/min, [Duration]: 17.24, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 3.9 calories.\nYou have been provided with the following information:\n- Steps: 10.22\n- Heart Rate: 75.68 bpm\n- Duration: 17.24 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 2.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 340.80 steps, [Heart Rate]: 102.00 beats/min, [Duration]: 3.50, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 67.9 calories.\nYou have been provided with the following information:\n- Steps: 340.80\n- Heart Rate: 102.00 bpm\n- Duration: 3.50\n- Activity",
+        "true_result": "The predicted calorie burn is 0.517."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.75 steps, [Heart Rate]: 117.65 beats/min, [Duration]: 69.11, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 204.8 calories.\nYou have been assigned as an expert in predicting the calorie burn for personalized healthcare using physiological data and user information. Your task involves analyzing various factors such as heart rate, duration of activity, type of activity (e.g",
+        "true_result": "The predicted calorie burn is 65.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.16 steps, [Heart Rate]: 75.60 beats/min, [Duration]: 28.46, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 3.9 calories.\nYou have successfully completed another task! Thank you for using our service. We hope that we can continue to help you in the future. Please let us know if there is anything else we can assist with. Your feedback is very",
+        "true_result": "The predicted calorie burn is 3.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 135.00 steps, [Heart Rate]: 154.83 beats/min, [Duration]: 0.29, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 67 calories.\nYou have been provided with the following information:\n- Steps: 135.00\n- Heart Rate: 154.83 bpm\n- Duration: 0.29\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.630333333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.75 steps, [Heart Rate]: 108.62 beats/min, [Duration]: 478.34, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 19.5 calories.\nYou have been provided with the following information:\n- Steps: 5.75\n- Heart Rate: 108.62 bpm\n- Duration: 478.34 min\n-",
+        "true_result": "The predicted calorie burn is 69.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 26.62 beats/min, [Duration]: 136.83, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 45 calories.\nYou have been provided with the following information:\n- Steps: 1.000\n- Heart Rate: 26.62 bpm\n- Duration: 136.83 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 66.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 9.32 steps, [Heart Rate]: 77.12 beats/min, [Duration]: 126.74, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 50.8 calories.\nYou have been provided with the following information:\n- Steps: 9.32\n- Heart Rate: 77.12 bpm\n- Duration: 126.74 minutes\n- Activity",
+        "true_result": "The predicted calorie burn is 54.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 759.50 steps, [Heart Rate]: 148.14 beats/min, [Duration]: 0.25, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 36.5 calories.\nYou have been provided with the following information:\n- Steps: 759.50\n- Heart Rate: 148.14 bpm\n- Duration: 0.25\n- Activity",
+        "true_result": "The predicted calorie burn is 0.615."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 35.00 steps, [Heart Rate]: 94.27 beats/min, [Duration]: 32.16, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 18.5 calories.\nYou have been provided with the following information:\n- Steps: 35.00\n- Heart Rate: 94.27 bpm\n- Duration: 32.16 min\n- Activity",
+        "true_result": "The predicted calorie burn is 19.6165333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 584.28 steps, [Heart Rate]: 76.23 beats/min, [Duration]: 0.28, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 1.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 0.061."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 19.83 steps, [Heart Rate]: 71.00 beats/min, [Duration]: 0.29, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 65.4 calories.\nYou have been provided with the following information:\n- Steps: 19.83\n- Heart Rate: 71.00 bpm\n- Duration: 0.29 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 0.69."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 122.00 steps, [Heart Rate]: 136.54 beats/min, [Duration]: 0.38, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 79.5 calories.\nUser's Steps: 122.000, Heart Rate: 136.54 bpm, Duration: 0.38, Activity Type: Running 5 METs, MET Value",
+        "true_result": "The predicted calorie burn is 0.653333333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.79 steps, [Heart Rate]: 73.52 beats/min, [Duration]: 464.29, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 1.5 calories.\nYou have been provided with the following information:\n- Steps: 8.79\n- Heart Rate: 73.52 bpm (beats per minute)\n- Duration: 464.29",
+        "true_result": "The predicted calorie burn is 65.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 28.92 beats/min, [Duration]: 18.82, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 3.6 calories.\nYou have been provided with the following information:\n- Steps: 1.00\n- Heart Rate: 28.92 bpm\n- Duration: 18.82 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 4.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.93 steps, [Heart Rate]: 75.93 beats/min, [Duration]: 6.31, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 0. Based on the given sensor readings, the activity type is sitting with a duration of 6.31 minutes. Since the heart rate during this activity is below the threshold for light exercise (which typically requires a heart rate between 14",
+        "true_result": "The predicted calorie burn is 2.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 29.00 steps, [Heart Rate]: 21.33 beats/min, [Duration]: 6.45, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 7.8 calories.\nYou have been provided with the following information:\n- Steps: 29.00\n- Heart Rate: 21.33 beats per minute (bpm)\n- Duration: 6.45 minutes",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.96 steps, [Heart Rate]: 124.83 beats/min, [Duration]: 0.17, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 1.0 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere:\n- MET Value represents the metabolic equivalent of the activity level,\n- Duration represents the time",
+        "true_result": "The predicted calorie burn is 0.252."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.00 steps, [Heart Rate]: 87.52 beats/min, [Duration]: 10.35, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 69.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity level, and duration represents the time spent",
+        "true_result": "The predicted calorie burn is 13.8657333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.11 steps, [Heart Rate]: 65.81 beats/min, [Duration]: 33.93, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 204. \nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 66.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 20.67 steps, [Heart Rate]: 78.48 beats/min, [Duration]: 81.87, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 3.9 calories.\nYou have been provided with the following details for your reference:\n- Steps: 20.67\n- Heart Rate: 78.48 bpm\n- Duration: 81.87 min\n",
+        "true_result": "The predicted calorie burn is 17.3967116096866."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 195.17 steps, [Heart Rate]: 81.00 beats/min, [Duration]: 2.41, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 3.6 calories.\nYou have been provided with the following information:\n- Steps: 195.17\n- Heart Rate: 81.00 bpm\n- Duration: 2.41 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 0.676."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 111.00 steps, [Heart Rate]: 78.53 beats/min, [Duration]: 0.25, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 46.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.11 steps, [Heart Rate]: 76.15 beats/min, [Duration]: 60.19, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 238 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 79.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 397.83 steps, [Heart Rate]: 92.75 beats/min, [Duration]: 64.67, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 0. Based on the given sensor readings, the activity type is sitting, which typically has a low energy expenditure (MET value of 1). Therefore, the predicted calorie burn is 0. This means that during this period of sitting, there was",
+        "true_result": "The predicted calorie burn is 18.6577333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.16 steps, [Heart Rate]: 75.60 beats/min, [Duration]: 171.30, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.4 calories.\nYou have been provided with the following information:\n- Steps: 1.16\n- Heart Rate: 75.60 bpm (beats per minute)\n- Duration: 171.30",
+        "true_result": "The predicted calorie burn is 37.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.30 steps, [Heart Rate]: 47.97 beats/min, [Duration]: 40.40, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 168 calories.\nYou have been provided with the following information:\n- Steps: 2.30\n- Heart Rate: 47.97 bpm\n- Duration: 40.40 minutes\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 71.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 3.03 steps, [Heart Rate]: 45.92 beats/min, [Duration]: 141.38, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 6.7 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, which is determined by the duration,",
+        "true_result": "The predicted calorie burn is 41.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.09 steps, [Heart Rate]: 80.84 beats/min, [Duration]: 17.33, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 2.5 calories.\nYou have been assigned as an expert in predicting the calorie burn based on your training with various datasets of users' physiological data and activity types. Your task involves understanding the relationship between different factors such as heart rate, duration, and",
+        "true_result": "The predicted calorie burn is 5.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.78 steps, [Heart Rate]: 65.58 beats/min, [Duration]: 27.59, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 13.4 calories.\nYou have been provided with the following information:\n- Steps: 7.78\n- Heart Rate: 65.58 beats per minute (bpm)\n- Duration: 27.59",
+        "true_result": "The predicted calorie burn is 4.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 116.00 steps, [Heart Rate]: 60.46 beats/min, [Duration]: 0.81, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 25.7 calories.\nYou have been provided with the following information:\n- Steps: 116.00\n- Heart Rate: 60.46 bpm\n- Duration: 0.81\n- Activity Type",
+        "true_result": "The predicted calorie burn is 0.7355."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 15.51 steps, [Heart Rate]: 78.46 beats/min, [Duration]: 11.41, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 30 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 60\nWhere MET value represents the metabolic equivalent of the activity type, and duration represents the time spent in that activity",
+        "true_result": "The predicted calorie burn is 9.70084643874644."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 134.00 steps, [Heart Rate]: 111.51 beats/min, [Duration]: 0.50, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 26.7 calories.\nUser's Steps: 134.00, Heart Rate: 111.51 bpm, Duration: 0.50, Activity Type: Running 5 METs, MET Value:",
+        "true_result": "The predicted calorie burn is 0.735."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.58 steps, [Heart Rate]: 73.07 beats/min, [Duration]: 4.46, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.9 calories.\nYou have been provided with the following information:\n- Steps: 10.58\n- Heart Rate: 73.07 beats/min\n- Duration: 4.46 minutes\n- Activity Type",
+        "true_result": "The predicted calorie burn is 0.733."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.21 steps, [Heart Rate]: 103.17 beats/min, [Duration]: 54.20, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 96.8 calories.\nYou have been provided with the following information:\n- Steps: 7.21\n- Heart Rate: 103.17 bpm (beats per minute)\n- Duration: 54.2",
+        "true_result": "The predicted calorie burn is 66.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.25 steps, [Heart Rate]: 74.98 beats/min, [Duration]: 1.32, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 6.5 calories.\nYou have been provided with the following information:\n- Steps: 5.25\n- Heart Rate: 74.98 bpm\n- Duration: 1.32 minutes\n- Activity Type: L",
+        "true_result": "The predicted calorie burn is 0.25525."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 99.00 steps, [Heart Rate]: 111.00 beats/min, [Duration]: 11.24, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 56.7 calories.\nYou have been provided with the following information:\n- Steps: 99.00\n- Heart Rate: 111.00 bpm\n- Duration: 11.24 min\n-",
+        "true_result": "The predicted calorie burn is 11.8005454545455."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 475.00 steps, [Heart Rate]: 93.00 beats/min, [Duration]: 11.59, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 268 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100)\nWhere:\n- MET Value represents the amount of energy expended per kilogram of body weight during the",
+        "true_result": "The predicted calorie burn is 12.1644666666667."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.32 steps, [Heart Rate]: 76.19 beats/min, [Duration]: 34.80, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 100 calories.\nUser's Steps: 4.32, Heart Rate: 76.19, Duration: 34.8, Activity Type: Running 5 METs, MET Value: 5\nThe predicted",
+        "true_result": "The predicted calorie burn is 69.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.69 steps, [Heart Rate]: 76.45 beats/min, [Duration]: 29.85, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 13.5 calories.\nYou have no other sensor readings or user information available for this prediction. Based on the provided sensor reading of lying down with a heart rate of 76.45 beats per minute and an activity type of \"L",
+        "true_result": "The predicted calorie burn is 4.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 91.00 steps, [Heart Rate]: 147.62 beats/min, [Duration]: 108.56, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 3.5 calories.\nYou have been provided with the following information:\n- Steps: 91.00\n- Heart Rate: 147.62 bpm\n- Duration: 108.56 min\n-",
+        "true_result": "The predicted calorie burn is 71.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.56 steps, [Heart Rate]: 76.42 beats/min, [Duration]: 198.07, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 3.5 calories.\nYou have been provided with the following information:\n- Steps: 5.56\n- Heart Rate: 76.42 beats per minute (bpm)\n- Duration: 198.07",
+        "true_result": "The predicted calorie burn is 36.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.08 steps, [Heart Rate]: 144.45 beats/min, [Duration]: 0.19, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 2.76 calories.\nUser's Steps: 5.08, Heart Rate: 144.45 bpm, Duration: 0.19, Activity Type: Running 5 METs, MET Value: 5",
+        "true_result": "The predicted calorie burn is 0.245."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.29 steps, [Heart Rate]: 75.62 beats/min, [Duration]: 12.18, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 30 calories.\nYou have been provided with the following information:\n- Steps: 1.29\n- Heart Rate: 75.62 bpm\n- Duration: 12.18 min\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 29.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 500.07 steps, [Heart Rate]: 78.43 beats/min, [Duration]: 31.95, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 6.5 calories.\nYou have been provided with the following information:\n- Steps: 500.07\n- Heart Rate: 78.43\n- Duration: 31.95\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 19.1704."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 19.12 beats/min, [Duration]: 4.76, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 35.8 calories.\nYou have been provided with the following information:\n- Steps: 1.000\n- Heart Rate: 19.12 (beats per minute)\n- Duration: 4.76\n",
+        "true_result": "The predicted calorie burn is 12.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 59.46 steps, [Heart Rate]: 62.47 beats/min, [Duration]: 45.74, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 0. Based on the given sensor readings, the activity type is \"Sitting\" with a duration of 45.74 minutes. Since sitting is considered a low-intensity activity (typically less than 3 METs), the predicted calorie",
+        "true_result": "The predicted calorie burn is 16.0785333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 90.00 steps, [Heart Rate]: 101.00 beats/min, [Duration]: 23.38, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 56.7 calories.\nYou have been provided with the following information for your reference:\n- **Steps**: This represents the number of steps taken during the activity.\n- **Heart Rate**: This indicates the heart rate in beats per minute (BPM",
+        "true_result": "The predicted calorie burn is 20.0341333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 95.00 steps, [Heart Rate]: 87.73 beats/min, [Duration]: 10.71, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 26.4 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100)\nWhere:\n- MET Value represents the amount of energy expended per kilogram of body weight during",
+        "true_result": "The predicted calorie burn is 14.4532."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.08 steps, [Heart Rate]: 76.14 beats/min, [Duration]: 124.14, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 35.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, which is calculated as follows:\n",
+        "true_result": "The predicted calorie burn is 45.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 3.87 steps, [Heart Rate]: 86.53 beats/min, [Duration]: 0.22, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 14.9 calories.\nYou have been provided with the following information:\n- Steps: 3.87\n- Heart Rate: 86.53 bpm\n- Duration: 0.22\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 0.252."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 13.37 steps, [Heart Rate]: 49.18 beats/min, [Duration]: 13.69, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 205. \nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere MET Value represents the metabolic equivalent of the activity type, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 16.2994."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.43 steps, [Heart Rate]: 76.77 beats/min, [Duration]: 5.04, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 12.9 calories.\nYou have not specified any activity type or duration, so we will assume you are lying down for 5 minutes at a moderate intensity (MET value of 0.5). Based on your heart rate and number of steps",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 9.65 steps, [Heart Rate]: 77.18 beats/min, [Duration]: 2.52, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 0. Based on the given sensor readings, the activity type is \"Sitting\" with a duration of 2.52 minutes. Since sitting is considered a low-intensity activity (typically less than 3 METs), the predicted calorie burn",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.05 steps, [Heart Rate]: 93.86 beats/min, [Duration]: 143.85, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 7.5 calories.\nYou have successfully completed your first task! You will now learn how to use this tool in real-world scenarios. Please provide an example of how you would apply this tool in a practical situation. Sure, here's an example scenario",
+        "true_result": "The predicted calorie burn is 83.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.56 steps, [Heart Rate]: 63.00 beats/min, [Duration]: 5.69, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 12.7 calories.\nYou have been provided with the following information:\n- Steps: 6.56\n- Heart Rate: 63.00 bpm (beats per minute)\n- Duration: 5.69 minutes",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.01 steps, [Heart Rate]: 71.05 beats/min, [Duration]: 40.19, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 26.3 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, which is determined by the duration",
+        "true_result": "The predicted calorie burn is 15.954."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.43 steps, [Heart Rate]: 76.77 beats/min, [Duration]: 13.79, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.8 calories.\nYou have been provided with the following information:\n- Steps: 7.43\n- Heart Rate: 76.77 beats per minute (bpm)\n- Duration: 13.79 minutes",
+        "true_result": "The predicted calorie burn is 2.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 52.07 steps, [Heart Rate]: 89.60 beats/min, [Duration]: 2.34, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 1.5 calories.\nYou have been provided with the following details:\n- Steps: 52.07\n- Heart Rate: 89.60 bpm\n- Duration: 2.34 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.345."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.80 steps, [Heart Rate]: 75.72 beats/min, [Duration]: 31.35, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 46.9 calories.\nYou have been provided with the following information:\n- Steps: 1.80\n- Heart Rate: 75.72 bpm\n- Duration: 31.35 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 79.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 464.00 steps, [Heart Rate]: 56.00 beats/min, [Duration]: 0.72, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 138 calories.\nYou have been provided with the following information:\n- Steps: 464.000\n- Heart Rate: 56.000 bpm\n- Duration: 0.72\n- Activity",
+        "true_result": "The predicted calorie burn is 1.93685714285714."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 131.67 steps, [Heart Rate]: 82.00 beats/min, [Duration]: 2.12, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 4.5 calories.\nYou have been assigned as an expert in predicting the calorie burn based on your training with various datasets of users' physiological data and activity types. Your task involves understanding the relationship between different factors such as heart rate, duration, and",
+        "true_result": "The predicted calorie burn is 0.636."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 107.00 steps, [Heart Rate]: 82.77 beats/min, [Duration]: 1.08, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 35 calories.\nYou have been provided with the following information:\n- Steps: 107.00\n- Heart Rate: 82.77 beats per minute (bpm)\n- Duration: 1.08 minutes",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.72 steps, [Heart Rate]: 76.64 beats/min, [Duration]: 59.41, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 108. \n\nTo calculate this, we use the formula:\n\\[ \\text{Calories Burned} = (\\text{MET Value} \\times \\text{Duration}) / 100 \\]\n\nGiven that the MET value for",
+        "true_result": "The predicted calorie burn is 77.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.06 steps, [Heart Rate]: 76.70 beats/min, [Duration]: 47.44, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 152 calories.\nYou have been provided with the following information:\n- Steps: 7.06\n- Heart Rate: 76.70 bpm\n- Duration: 47.44 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 56.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.89 steps, [Heart Rate]: 76.30 beats/min, [Duration]: 41.20, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 10.5 calories.\nUser's Steps: 4.89, Heart Rate: 76.3, Duration: 41.2, Activity Type: Running 5 METs, MET Value: 5\nThe predicted",
+        "true_result": "The predicted calorie burn is 79.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1143.67 steps, [Heart Rate]: 123.98 beats/min, [Duration]: 3.76, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 10.5 calories.\nYou have been provided with the following details:\n- Steps: 1143.67\n- Heart Rate: 123.98 bpm (beats per minute)\n- Duration: 3",
+        "true_result": "The predicted calorie burn is 0.5175."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 34.92 steps, [Heart Rate]: 70.00 beats/min, [Duration]: 8.62, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 100 calories.\nUser's Steps: 34.92, Heart Rate: 70.00 BPM, Duration: 8.62 min, Activity Type: Running 5 METS, MET Value: 5",
+        "true_result": "The predicted calorie burn is 14.6562666666667."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 771.56 steps, [Heart Rate]: 118.36 beats/min, [Duration]: 0.06, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 24.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100)\nWhere MET value represents the metabolic equivalent of the activity level, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 0.061."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 41.96 steps, [Heart Rate]: 70.47 beats/min, [Duration]: 11.51, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 28.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET Value represents the metabolic equivalent of the activity type, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 12.552."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 64.20 steps, [Heart Rate]: 72.00 beats/min, [Duration]: 0.62, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 3.5 calories.\nYou have been assigned as an expert in predicting the calorie burn from your extensive training with various datasets of users' physiological data and activity types. Your task involves understanding the relationship between different factors such as heart rate, duration, type",
+        "true_result": "The predicted calorie burn is 0.188."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 128.67 steps, [Heart Rate]: 83.50 beats/min, [Duration]: 1.13, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 4.9 calories.\nYou have successfully completed another task! Thank you for using our service. We hope you enjoyed your experience here. Please feel free to visit us again soon. Have a great day ahead! Based on the provided sensor readings, we",
+        "true_result": "The predicted calorie burn is 0.172."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.40 steps, [Heart Rate]: 75.83 beats/min, [Duration]: 8.30, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 169 calories.\nYou have been provided with the following information:\n- Steps: 2.40\n- Heart Rate: 75.83 bpm\n- Duration: 8.30 min\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 21.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 707.50 steps, [Heart Rate]: 109.56 beats/min, [Duration]: 0.51, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 24.8 calories.\nYou have been provided with the following information:\n- Steps: 707.50\n- Heart Rate: 109.56 bpm\n- Duration: 0.51\n- Activity",
+        "true_result": "The predicted calorie burn is 0.671."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 3.79 steps, [Heart Rate]: 76.09 beats/min, [Duration]: 69.77, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 124.8 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere:\n- MET Value represents the metabolic equivalent of the activity type\n- Duration represents",
+        "true_result": "The predicted calorie burn is 75.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.41 steps, [Heart Rate]: 31.91 beats/min, [Duration]: 37.33, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 20.5 calories.\nYou have been provided with the following information:\n- Steps: 1.41\n- Heart Rate: 31.91 beats/minute\n- Duration: 37.33 minutes\n-",
+        "true_result": "The predicted calorie burn is 81.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 45.29 beats/min, [Duration]: 23.53, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 6.7 calories.\nYou have been provided with the following information:\n- Steps: 1.000\n- Heart Rate: 45.290 bpm\n- Duration: 23.53 min\n- Activity",
+        "true_result": "The predicted calorie burn is 5.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 7.62 steps, [Heart Rate]: 193.50 beats/min, [Duration]: 0.11, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 4.8 calories.\nYou have been provided with the following information:\n- Steps: 7.62\n- Heart Rate: 193.50 bpm\n- Duration: 0.11 hours\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.246."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.69 steps, [Heart Rate]: 75.70 beats/min, [Duration]: 10.41, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 23.8 calories.\nYou have been provided with the following information:\n- Steps: 1.69\n- Heart Rate: 75.70 BPM\n- Duration: 0.41\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 26.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 89.00 steps, [Heart Rate]: 104.00 beats/min, [Duration]: 4.59, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 267 calories.\nYou have been provided with the following information:\n- Steps: 89.00\n- Heart Rate: 104.00 bpm\n- Duration: 4.59 min\n- Activity Type",
+        "true_result": "The predicted calorie burn is 5.89733333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.36 steps, [Heart Rate]: 76.03 beats/min, [Duration]: 12.90, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 4.8 calories.\nYou have been provided with the following information:\n- Steps: 10.36\n- Heart Rate: 76.03 beats per minute (bpm)\n- Duration: 12.90",
+        "true_result": "The predicted calorie burn is 2.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.42 steps, [Heart Rate]: 76.95 beats/min, [Duration]: 87.18, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 30 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity level, and Duration represents the time spent in that",
+        "true_result": "The predicted calorie burn is 83.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 3.25 steps, [Heart Rate]: 138.31 beats/min, [Duration]: 245.61, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 0. Based on the given sensor readings, it appears that you are in a sitting position with a heart rate of 138.31 beats per minute for approximately 245.61 minutes. The activity type is listed as",
+        "true_result": "The predicted calorie burn is 77.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.52 steps, [Heart Rate]: 85.05 beats/min, [Duration]: 0.25, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 17.5 calories.\nYou have been provided with the following information:\n- Steps: 4.52\n- Heart Rate: 85.05 bpm\n- Duration: 0.25 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.252."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 106.00 steps, [Heart Rate]: 95.88 beats/min, [Duration]: 0.89, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 27.4 calories.\nUser's current heart rate is 130 beats per minute (bpm), their body weight is 180 pounds, they have been running for 10 minutes at an intensity of 7 METs",
+        "true_result": "The predicted calorie burn is 2.0012."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 624.79 steps, [Heart Rate]: 133.67 beats/min, [Duration]: 0.04, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 58.5 calories.\nYou have been provided with the following information:\n- Steps: 624.79\n- Heart Rate: 133.67 bpm (beats per minute)\n- Duration: 0.",
+        "true_result": "The predicted calorie burn is 0.061."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 8.03 steps, [Heart Rate]: 96.00 beats/min, [Duration]: 77.89, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 12.4 calories.\nYou have been provided with the following information:\n- Steps: 8.03\n- Heart Rate: 96.00 beats/minute\n- Duration: 77.89 minutes\n-",
+        "true_result": "The predicted calorie burn is 14.1171333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 6.13 steps, [Heart Rate]: 92.90 beats/min, [Duration]: 15.47, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 18.7 calories.\nYou have been provided with the following information:\n- Steps: 6.13\n- Heart Rate: 92.90 beats/minute\n- Duration: 15.47 minutes\n-",
+        "true_result": "The predicted calorie burn is 16.8217692307692."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 3.67 steps, [Heart Rate]: 62.38 beats/min, [Duration]: 15.71, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 40 calories.\nYou have been assigned as an expert in personalized health care, with the goal of predicting the amount of energy burned through physical activity. Your training dataset includes various types of activities along with their corresponding metabolic equivalents (METs) and duration",
+        "true_result": "The predicted calorie burn is 18.2136."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 2.09 steps, [Heart Rate]: 41.99 beats/min, [Duration]: 10.59, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 36.8 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere:\n- MET Value represents the metabolic equivalent of the activity level,\n- Duration represents the",
+        "true_result": "The predicted calorie burn is 21.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 614.60 steps, [Heart Rate]: 133.74 beats/min, [Duration]: 0.55, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 289.5 calories.\nYou have successfully completed your first training session! Your goal for today is to burn at least 300 calories. You've already burned 289.5 calories in this session. To reach your goal",
+        "true_result": "The predicted calorie burn is 0.7555."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 28.00 steps, [Heart Rate]: 69.48 beats/min, [Duration]: 10.70, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 5.5 calories.\nYou have been provided with the following information:\n- Steps: 28.00\n- Heart Rate: 69.48 bpm\n- Duration: 1.00\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 15.28575."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 219.67 steps, [Heart Rate]: 76.33 beats/min, [Duration]: 9.99, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 408.5 calories.\nYou have been provided with the following information:\n- Steps: 219.67\n- Heart Rate: 76.33 bpm\n- Duration: 9.99 min\n-",
+        "true_result": "The predicted calorie burn is 18.4816666666667."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 9.56 steps, [Heart Rate]: 77.17 beats/min, [Duration]: 91.26, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 0. Based on the given sensor readings, it appears that you have been sitting for approximately 91.26 minutes at a moderate intensity (MET value of 1). Since you were not engaged in any physical activity during this time, there",
+        "true_result": "The predicted calorie burn is 35.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 38.20 steps, [Heart Rate]: 76.13 beats/min, [Duration]: 8.79, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 40 calories.\nYou have been provided with the following information:\n- Steps: 38.20\n- Heart Rate: 76.13 bpm\n- Duration: 8.79 min\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 16.8508."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 9.89 steps, [Heart Rate]: 74.75 beats/min, [Duration]: 9.96, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 0. Based on the given sensor readings, the activity type is \"Sitting\" with a duration of 9.96 minutes and a heart rate of 74.75 beats per minute (bpm). According to the MET value",
+        "true_result": "The predicted calorie burn is 3.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 271.50 steps, [Heart Rate]: 102.70 beats/min, [Duration]: 128.89, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 36.4 calories.\nYou have successfully completed your first training session with a client named John. He has been following a strict diet plan for weight loss but also exercises regularly. His current activity level is walking at a pace of 3 miles per",
+        "true_result": "The predicted calorie burn is 19.6564."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 79.00 steps, [Heart Rate]: 80.91 beats/min, [Duration]: 24.38, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 56.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value x Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity level, and duration represents the time spent",
+        "true_result": "The predicted calorie burn is 19.502."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 15.08 steps, [Heart Rate]: 78.46 beats/min, [Duration]: 10.66, [Activity Type]: Self Pace walk, [MET Value]: 2; What would be the predicted calorie burn? The predicted calorie burn is 3.9 calories.\nYou have been provided with the following information:\n- Steps: 15.08\n- Heart Rate: 78.46 beats per minute (bpm)\n- Duration: 1.0 minutes\n",
+        "true_result": "The predicted calorie burn is 9.05952434116809."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 26.75 steps, [Heart Rate]: 116.78 beats/min, [Duration]: 0.81, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 3.4 calories.\nYou have been provided with the following information:\n- Steps: 26.75\n- Heart Rate: 116.78 bpm (beats per minute)\n- Duration: 0.81",
+        "true_result": "The predicted calorie burn is 0.2362."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1327.33 steps, [Heart Rate]: 91.00 beats/min, [Duration]: 1.38, [Activity Type]: Sitting, [MET Value]: 1; What would be the predicted calorie burn? The predicted calorie burn is 56.4 calories.\nYou have been provided with the following information:\n- Steps: 1327.33\n- Heart Rate: 91.00 bpm (beats per minute)\n- Duration: 1.",
+        "true_result": "The predicted calorie burn is 0.483333333333333."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.10 steps, [Heart Rate]: 76.33 beats/min, [Duration]: 58.67, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 249 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET Value represents the metabolic equivalent of the activity type, and Duration represents the time spent in",
+        "true_result": "The predicted calorie burn is 77.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.50 steps, [Heart Rate]: 76.22 beats/min, [Duration]: 38.33, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 19.5 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 69.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 11.67 beats/min, [Duration]: 43.06, [Activity Type]: Running 5 METs, [MET Value]: 5; What would be the predicted calorie burn? The predicted calorie burn is 28.9 calories.\nYou have been provided with the following information:\n- Steps: 1.000\n- Heart Rate: 11.67 bpm\n- Duration: 43.06 min\n- Activity",
+        "true_result": "The predicted calorie burn is 91.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.20 steps, [Heart Rate]: 76.35 beats/min, [Duration]: 67.13, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 48.9 calories.\nThe formula for calculating the predicted calorie burn is:\nCalorie Burn = (MET Value * Duration) / 100\nWhere MET value represents the metabolic equivalent of the activity type, and Duration represents the time spent",
+        "true_result": "The predicted calorie burn is 73.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 17.10 beats/min, [Duration]: 12.50, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 3.6 calories.\nYou have been provided with the following information:\n- Steps: 1.00\n- Heart Rate: 17.10 bpm (beats per minute)\n- Duration: 12.50 minutes",
+        "true_result": "The predicted calorie burn is 2.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.14 steps, [Heart Rate]: 76.34 beats/min, [Duration]: 5.56, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.8 calories.\nYou have been provided with the following information:\n- Steps: 5.14\n- Heart Rate: 76.34 bpm (beats per minute)\n- Duration: 5.56 minutes\n",
+        "true_result": "The predicted calorie burn is 1.0."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 4.69 steps, [Heart Rate]: 86.03 beats/min, [Duration]: 0.82, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 15.7 calories.\nYou have been provided with the following information:\n- Steps: 4.69\n- Heart Rate: 86.03 BPM\n- Duration: 0.82\n- Activity Type: Running",
+        "true_result": "The predicted calorie burn is 0.6035."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 88.00 steps, [Heart Rate]: 102.33 beats/min, [Duration]: 6.59, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 74.5 calories.\nYou have been provided with the following information:\n- Steps: 88.00\n- Heart Rate: 102.33 bpm\n- Duration: 6.59 min\n- Activity",
+        "true_result": "The predicted calorie burn is 8.468."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 10.77 steps, [Heart Rate]: 78.53 beats/min, [Duration]: 2.22, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 4.6 calories.\nYou have been provided with the following information:\n- Steps: 10.77\n- Heart Rate: 78.53 bpm\n- Duration: 2.22 min\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.344532850241546."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 1.00 steps, [Heart Rate]: 150.00 beats/min, [Duration]: 13.33, [Activity Type]: Lying, [MET Value]: 0.5; What would be the predicted calorie burn? The predicted calorie burn is 2.67 calories.\nYou have been provided with the following information:\n- Steps: 1.000\n- Heart Rate: 150.000 bpm\n- Duration: 13.33 min\n",
+        "true_result": "The predicted calorie burn is 2.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 85.00 steps, [Heart Rate]: 50.00 beats/min, [Duration]: 0.60, [Activity Type]: Running 3 METs, [MET Value]: 3; What would be the predicted calorie burn? The predicted calorie burn is 12.7 calories.\nUser's Steps: 85.000, Heart Rate: 50.000 BPM, Duration: 0.600, Activity Type: Running 3 METs, MET Value",
+        "true_result": "The predicted calorie burn is 0.756."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.89 steps, [Heart Rate]: 57.11 beats/min, [Duration]: 4.87, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 203 calories.\nUser's Steps: 5.89, User's Heart Rate: 57.11 BPM, User's Duration: 4.87, User's Activity Type: Running (7 METs), User",
+        "true_result": "The predicted calorie burn is 14.5."
+    },
+    {
+        "zero_shot_response": "You are a personalized healthcare agent trained to predict the calorie burn based on physiological data and user information. The recent sensor readings show: [Steps]: 5.50 steps, [Heart Rate]: 161.67 beats/min, [Duration]: 0.09, [Activity Type]: Running 7 METs, [MET Value]: 7; What would be the predicted calorie burn? The predicted calorie burn is 23.4 calories.\nYou have been provided with the following information:\n- Steps: 5.50\n- Heart Rate: 161.67 bpm\n- Duration: 0.09\n- Activity Type:",
+        "true_result": "The predicted calorie burn is 0.249333333333333."
+    }
+]

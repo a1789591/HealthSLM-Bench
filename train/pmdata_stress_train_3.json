@@ -1,0 +1,17 @@
+[
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict stress level which ranges from 0 to 5 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [2524.0, 2362.0, 2753.0, 3344.0, 2162.0, 1824.0, 2619.0, 2434.0, 2862.0, 1331.0, 1431.0] steps, [Burned Calorories]: [234.0, 222.0, 250.0, 331.0, 242.0, 218.0, 226.0, 226.0, 283.0, 138.0, 127.0] calories, [Resting Heart Rate]: [58.373215675354004, 57.88592052459717, 56.78752517700195, 0.0, 53.55788993835449, 0.0, 53.84395217895508, 53.669076919555664, 0.0, 0.0, 53.70508861541748, 54.71232509613037, 54.91011714935303, 55.746761322021484] beats/min, [SleepMinutes]: [440.0, 498.0, 449.0, 525.0, 387.0, 213.0, 388.0, 425.0, 231.0, 475.0, 368.0, 452.0] minutes, [Mood]: 3 out of 5; What would be the predicted stress?",
+        "answer": "The predicted stress level is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict stress level which ranges from 0 to 5 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [5269.0, 2121.0, 1591.0, 425.0, 1944.0, 1302.0, 2968.0, 1057.0, 2638.0, 407.0, 1073.0] steps, [Burned Calorories]: [297.0, 197.0, 119.0, 131.0, 161.0, 98.0, 610.0, 87.0, 631.0, 337.0, 323.0] calories, [Resting Heart Rate]: [61.0697717666626, 62.40205764770508, 63.615715980529785, 62.528472900390625, 62.34894943237305, 61.35254096984863, 62.11835861206055, 62.11280345916748, 64.54501247406006, 63.86756706237793, 63.55196285247803, 62.47495460510254, 61.41959857940674, 62.158249855041504] beats/min, [SleepMinutes]: [543.0, 456.0, 379.0, 606.0, 478.0, 514.0, 522.0, 439.0, 439.0, 430.0, 484.0, 414.0, 397.0, 506.0, 403.0] minutes, [Mood]: 3 out of 5; What would be the predicted stress?",
+        "answer": "The predicted stress level is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict stress level which ranges from 0 to 5 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [2303.0, 2546.0, 2513.0, 2969.0, 2652.0, 2336.0, 2696.0, 2359.0, 2018.0, 4203.0, 2292.0, 1947.0, 5466.0, 11606.0, 11128.0, 4643.0, 6129.0, 2333.0, 1993.0] steps, [Burned Calorories]: [173.0, 210.0, 187.0, 238.0, 197.0, 177.0, 219.0, 173.0, 159.0, 323.0, 160.0, 153.0, 395.0, 800.0, 807.0, 323.0, 395.0, 170.0, 177.0] calories, [Resting Heart Rate]: [65.02585506439209, 65.06847476959229, 67.67055225372314, 70.3452844619751, 68.92012214660645, 67.1286211013794, 68.28105449676514, 66.76136875152588, 66.51541423797607, 66.52790451049805, 68.09179019927979, 68.53031826019287, 68.57364177703857, 70.74984836578369] beats/min, [SleepMinutes]: [413.0, 524.0, 764.0, 64.0, 659.0, 556.0, 632.0, 573.0, 585.0, 587.0, 590.0, 518.0, 558.0, 425.0] minutes, [Mood]: 4 out of 5; What would be the predicted stress?",
+        "answer": "The predicted stress level is 4."
+    }
+]

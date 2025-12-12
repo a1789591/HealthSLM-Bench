@@ -1,0 +1,177 @@
+[
+    {
+        "index": 1132,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [6597.0, 2152.0, 4656.0, 2324.0, 1969.0, 8098.0, 35.0, 12119.0, 11214.0, 8246.0, 1263.0, 9122.0, 370.0, 2357.0, 7693.0, 3251.0, 1993.0, 4056.0, 1978.0, 12421.0, 1618.0, 7537.0, 7481.0, 2119.0, 5823.0, 2178.0, 8707.0, 1838.0, 9157.0] steps, [Burned Calorories]: [584.0, 205.0, 761.0, 182.0, 160.0, 708.0, 5.0, 1301.0, 1254.0, 857.0, 106.0, 807.0, 34.0, 240.0, 702.0, 497.0, 170.0, 358.0, 164.0, 1470.0, 137.0, 661.0, 809.0, 214.0, 773.0, 167.0, 767.0, 181.0, 815.0] calories, [Resting Heart Rate]: [62.311007499694824, 60.51766109466553, 57.752352714538574, 57.366990089416504, 59.2921724319458, 59.32621669769287, 58.06359577178955, 58.092905044555664, 60.166069984436035, 58.651251792907715, 57.329970359802246, 56.97306156158447, 56.306965827941895, 55.20082187652588] beats/min, [SleepMinutes]: [452.0, 541.0, 540.0, 481.0, 510.0, 483.0, 485.0, 393.0, 484.0, 592.0, 497.0, 513.0, 326.0, 490.0] minutes, [Mood]: 4 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 5."
+    },
+    {
+        "index": 1004,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1651.0, 2640.0, 4274.0, 1630.0, 1718.0, 1417.0, 423.0, 372.0, 1182.0, 4103.0, 4527.0, 4065.0, 1992.0] steps, [Burned Calorories]: [158.0, 271.0, 403.0, 175.0, 203.0, 148.0, 39.0, 46.0, 117.0, 342.0, 403.0, 411.0, 186.0] calories, [Resting Heart Rate]: [51.15793704986572, 50.623393058776855, 51.89691352844238, 50.25901794433594, 50.18923568725586, 49.589598655700684, 48.51404571533203, 48.25457000732422, 48.71599006652832, 48.557228088378906, 50.34501647949219, 49.9366569519043, 50.14171123504639, 49.82376956939697] beats/min, [SleepMinutes]: [437.0, 408.0, 455.0, 529.0, 368.0, 392.0, 348.0, 458.0, 394.0, 516.0, 482.0, 375.0, 367.0, 397.0] minutes, [Mood]: 4 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 3."
+    },
+    {
+        "index": 708,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1745.0, 785.0, 1599.0, 5254.0, 792.0, 1872.0, 2289.0, 5109.0, 1691.0, 541.0, 3048.0, 5060.0] steps, [Burned Calorories]: [162.0, 92.0, 611.0, 471.0, 173.0, 177.0, 159.0, 446.0, 173.0, 103.0, 267.0, 454.0] calories, [Resting Heart Rate]: [56.99093246459961, 57.32547950744629, 57.10204601287842, 55.96010780334473, 54.93721866607666, 54.33335494995117, 54.1515474319458, 55.445197105407715, 54.85158824920654, 53.7756462097168, 54.55968379974365, 56.007134437561035, 57.30809020996094, 58.386549949645996] beats/min, [SleepMinutes]: [532.0, 439.0, 543.0, 503.0, 516.0, 445.0, 563.0, 372.0, 543.0, 469.0, 497.0, 536.0, 557.0, 502.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 2."
+    },
+    {
+        "index": 1243,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1766.0, 2650.0, 3725.0, 1344.0] steps, [Burned Calorories]: [179.0, 388.0, 364.0, 135.0] calories, [Resting Heart Rate]: [59.745121002197266, 59.4343900680542, 60.2969274520874, 0.0, 61.07069396972656, 63.937621116638184, 66.18032741546631, 63.98358917236328, 61.85910987854004, 61.68306636810303, 63.629332542419434, 63.80786418914795, 62.918230056762695, 64.58010292053223] beats/min, [SleepMinutes]: [414.0, 467.0, 473.0, 720.0, 399.0, 521.0, 499.0, 351.0, 568.0, 560.0, 494.0, 594.0, 439.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 2."
+    },
+    {
+        "index": 267,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1274.0, 1516.0, 5769.0, 3888.0, 2016.0, 5453.0, 2278.0] steps, [Burned Calorories]: [159.0, 168.0, 513.0, 376.0, 194.0, 594.0, 243.0] calories, [Resting Heart Rate]: [63.08152770996094, 62.79084587097168, 62.6686487197876, 62.06328868865967, 60.88875389099121, 62.72559928894043, 63.85162162780762, 62.78622341156006, 0.0, 63.40362739562988, 63.47901439666748, 63.68655014038086, 61.53118324279785, 62.020291328430176] beats/min, [SleepMinutes]: [393.0, 69.0, 451.0, 358.0, 407.0, 400.0, 420.0, 385.0, 471.0, 291.0, 519.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 5."
+    },
+    {
+        "index": 1192,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1838.0, 1365.0, 1322.0, 1478.0, 1366.0, 1603.0, 1442.0, 1978.0, 3786.0] steps, [Burned Calorories]: [158.0, 164.0, 124.0, 126.0, 148.0, 141.0, 149.0, 212.0, 360.0] calories, [Resting Heart Rate]: [64.6498966217041, 63.22485542297363, 61.939005851745605, 63.73233699798584, 63.78463840484619, 64.77288055419922, 64.15539741516113, 65.60192489624023, 65.3056583404541, 65.00172424316406, 64.21001148223877, 63.37221431732178, 65.55363082885742, 64.24898624420166] beats/min, [SleepMinutes]: [564.0, 653.0, 415.0, 318.0, 541.0, 358.0, 357.0, 405.0, 360.0, 953.0, 431.0, 720.0, 547.0, 698.0] minutes, [Mood]: 4 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 4."
+    },
+    {
+        "index": 636,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [324.0, 3575.0, 3923.0, 6911.0, 16693.0, 10235.0, 3793.0, 1412.0, 4238.0, 3928.0, 2233.0, 6624.0, 3732.0, 864.0, 1548.0, 2557.0, 3804.0, 4213.0, 3353.0, 3238.0, 1620.0, 3891.0, 1680.0, 1232.0, 11107.0, 3868.0, 2416.0, 11870.0, 13955.0, 754.0] steps, [Burned Calorories]: [161.0, 306.0, 290.0, 595.0, 2340.0, 723.0, 350.0, 709.0, 351.0, 355.0, 191.0, 1343.0, 247.0, 366.0, 116.0, 200.0, 272.0, 323.0, 287.0, 231.0, 138.0, 341.0, 785.0, 100.0, 922.0, 294.0, 217.0, 1345.0, 1646.0, 88.0] calories, [Resting Heart Rate]: [55.41680908203125, 55.97493648529053, 55.35256290435791, 55.52332305908203, 55.138407707214355, 55.389580726623535, 55.2614049911499, 54.96061992645264, 54.36319637298584, 54.016783714294434, 53.526339530944824, 54.02453327178955, 54.75826358795166, 54.3559513092041] beats/min, [SleepMinutes]: [501.0, 462.0, 513.0, 464.0, 572.0, 556.0, 426.0, 481.0, 453.0, 553.0, 516.0, 627.0, 621.0, 595.0] minutes, [Mood]: 4 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 7."
+    },
+    {
+        "index": 623,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [6870.0, 3781.0, 1219.0, 1046.0, 3991.0, 841.0, 5984.0, 7659.0, 6340.0, 911.0, 1051.0, 1028.0, 517.0, 1027.0, 1212.0, 475.0, 1180.0, 1001.0, 977.0, 1065.0, 3362.0, 2095.0, 1092.0, 6277.0] steps, [Burned Calorories]: [487.0, 252.0, 482.0, 82.0, 297.0, 435.0, 579.0, 815.0, 699.0, 74.0, 458.0, 125.0, 241.0, 95.0, 94.0, 352.0, 94.0, 84.0, 83.0, 112.0, 278.0, 178.0, 92.0, 585.0] calories, [Resting Heart Rate]: [55.445197105407715, 54.85158824920654, 53.7756462097168, 54.55968379974365, 56.007134437561035, 57.30809020996094, 58.386549949645996, 58.50502014160156, 57.85385608673096, 57.801695823669434, 56.779991149902344, 54.92530536651611, 54.534077644348145, 55.31774044036865] beats/min, [SleepMinutes]: [372.0, 543.0, 469.0, 497.0, 536.0, 557.0, 502.0, 499.0, 458.0, 561.0, 474.0, 523.0, 402.0, 618.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 7."
+    },
+    {
+        "index": 507,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [2332.0, 2163.0, 2453.0, 3588.0, 3304.0, 2589.0, 2091.0, 1794.0, 1360.0, 2533.0, 7103.0, 3019.0, 2529.0, 1467.0, 1908.0, 2803.0, 2418.0, 1608.0, 2576.0, 1832.0, 1705.0, 2303.0, 2546.0, 2513.0, 2969.0] steps, [Burned Calorories]: [184.0, 164.0, 182.0, 316.0, 298.0, 190.0, 166.0, 433.0, 119.0, 210.0, 562.0, 234.0, 211.0, 118.0, 140.0, 212.0, 180.0, 107.0, 190.0, 123.0, 122.0, 173.0, 210.0, 187.0, 238.0] calories, [Resting Heart Rate]: [69.23947143554688, 67.40154838562012, 67.49485683441162, 66.63847160339355, 66.8273401260376, 67.8953504562378, 68.7201566696167, 66.7816801071167, 65.73664474487305, 0.0, 0.0, 64.43187808990479, 65.02585506439209, 65.06847476959229] beats/min, [SleepMinutes]: [533.0, 503.0, 714.0, 435.0, 607.0, 439.0, 501.0, 691.0, 512.0, 512.0, 220.0, 277.0, 413.0, 524.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 7."
+    },
+    {
+        "index": 325,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [6061.0, 9367.0, 2174.0, 1508.0, 4920.0, 4120.0, 1517.0, 4511.0, 11077.0, 4094.0, 1993.0, 6893.0, 10239.0, 1636.0, 4977.0, 1921.0, 3633.0, 2781.0, 1304.0, 1584.0, 956.0, 1851.0, 3198.0, 3906.0, 9070.0, 1649.0, 2492.0, 2409.0, 1614.0, 1301.0, 1736.0, 1703.0, 1820.0, 2632.0, 2412.0, 12357.0, 1833.0, 4915.0, 4955.0] steps, [Burned Calorories]: [621.0, 826.0, 527.0, 138.0, 484.0, 379.0, 138.0, 480.0, 1142.0, 371.0, 726.0, 586.0, 966.0, 179.0, 513.0, 210.0, 393.0, 247.0, 144.0, 134.0, 420.0, 165.0, 312.0, 407.0, 914.0, 162.0, 241.0, 231.0, 155.0, 125.0, 184.0, 585.0, 170.0, 292.0, 212.0, 1238.0, 153.0, 486.0, 443.0] calories, [Resting Heart Rate]: [45.03902053833008, 45.61652088165283, 47.96926212310791, 48.6668586730957, 47.189125061035156, 46.159921646118164, 46.429490089416504, 46.25107192993164, 48.663825035095215, 49.623589515686035, 49.143330574035645, 0.0, 48.35283184051514, 46.46949100494385] beats/min, [SleepMinutes]: [420.0, 262.0, 94.0, 528.0, 476.0, 458.0, 438.0, 437.0, 323.0, 423.0, 486.0, 327.0, 408.0, 444.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 5."
+    },
+    {
+        "index": 253,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [4090.0, 1925.0, 5687.0, 3797.0, 1480.0, 1238.0, 1075.0, 2352.0, 1413.0, 1962.0, 1258.0, 3720.0, 2684.0, 2123.0, 2015.0] steps, [Burned Calorories]: [460.0, 180.0, 665.0, 459.0, 183.0, 135.0, 119.0, 266.0, 144.0, 225.0, 136.0, 411.0, 297.0, 202.0, 233.0] calories, [Resting Heart Rate]: [64.33499050140381, 63.49876022338867, 65.38578701019287, 63.748558044433594, 61.8627815246582, 61.03990840911865, 61.76554584503174, 61.62715530395508, 61.54970455169678, 62.529937744140625, 63.092610359191895, 62.905067443847656, 62.79711627960205, 63.092562675476074] beats/min, [SleepMinutes]: [406.0, 404.0, 377.0, 444.0, 379.0, 429.0, 396.0, 483.0, 357.0, 411.0, 419.0, 361.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 5."
+    },
+    {
+        "index": 792,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [2303.0, 3915.0, 1524.0, 2152.0, 2265.0, 2761.0, 1373.0, 780.0, 1332.0, 2395.0, 3288.0, 1164.0, 1267.0, 7252.0, 1093.0, 986.0, 1232.0, 7789.0, 3981.0, 4675.0, 2167.0, 1825.0, 959.0, 4526.0, 2243.0] steps, [Burned Calorories]: [292.0, 633.0, 195.0, 221.0, 248.0, 351.0, 173.0, 141.0, 166.0, 338.0, 639.0, 139.0, 159.0, 1122.0, 135.0, 127.0, 145.0, 864.0, 461.0, 575.0, 240.0, 200.0, 93.0, 539.0, 214.0] calories, [Resting Heart Rate]: [51.93328094482422, 51.8710298538208, 51.38984966278076, 51.482625007629395, 50.782002449035645, 53.02547550201416, 52.97533321380615, 52.90737247467041, 53.683420181274414, 53.23723602294922, 52.98031997680664, 51.939348220825195, 51.33994960784912, 51.493072509765625] beats/min, [SleepMinutes]: [367.0, 385.0, 359.0, 377.0, 372.0, 361.0, 422.0, 371.0, 372.0, 410.0, 488.0, 367.0, 371.0, 410.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 5."
+    },
+    {
+        "index": 215,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [993.0, 951.0] steps, [Burned Calorories]: [87.0, 96.0] calories, [Resting Heart Rate]: [65.36594009399414, 65.60023021697998, 65.29620933532715, 65.65274333953857, 64.55492687225342, 65.17023658752441, 65.22929286956787, 64.79638195037842, 64.9463119506836, 65.75829410552979, 66.80061626434326, 67.89087009429932, 67.46186542510986, 67.26166534423828] beats/min, [SleepMinutes]: [563.0, 563.0, 453.0, 487.0, 432.0, 405.0, 496.0, 352.0, 414.0, 428.0, 327.0, 527.0, 378.0, 544.0, 404.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 5."
+    },
+    {
+        "index": 867,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [969.0, 6824.0, 1417.0, 1441.0, 1883.0, 4963.0, 1777.0, 2040.0, 4360.0, 1390.0, 1236.0, 2217.0, 1703.0, 3105.0, 1670.0] steps, [Burned Calorories]: [124.0, 1011.0, 160.0, 156.0, 189.0, 567.0, 194.0, 216.0, 456.0, 151.0, 140.0, 242.0, 186.0, 341.0, 164.0] calories, [Resting Heart Rate]: [54.046916007995605, 53.446539878845215, 51.761281967163086, 51.68393611907959, 52.53243827819824, 53.02101135253906, 51.069740295410156, 53.24045372009277, 54.60454559326172, 55.23484134674072, 53.849595069885254, 54.30708885192871, 52.256792068481445, 51.522735595703125] beats/min, [SleepMinutes]: [384.0, 472.0, 427.0, 362.0, 391.0, 367.0, 366.0, 286.0, 479.0, 480.0, 344.0, 428.0, 385.0, 343.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 8."
+    },
+    {
+        "index": 1218,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [8504.0, 6847.0, 1911.0, 1319.0, 1739.0, 4607.0, 2518.0, 2390.0, 1527.0, 2476.0, 3013.0] steps, [Burned Calorories]: [726.0, 635.0, 182.0, 154.0, 171.0, 457.0, 232.0, 217.0, 155.0, 257.0, 328.0] calories, [Resting Heart Rate]: [62.2928581237793, 59.32119560241699, 59.28556442260742, 60.048298835754395, 59.532822608947754, 58.38112258911133, 57.509963035583496, 58.03027153015137, 59.846007347106934, 59.81819152832031, 57.4176082611084, 58.587679862976074, 58.433176040649414, 59.86935806274414] beats/min, [SleepMinutes]: [796.0, 265.0, 309.0, 487.0, 463.0, 430.0, 672.0, 544.0, 275.0, 562.0, 435.0, 457.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 5."
+    },
+    {
+        "index": 55,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [3988.0, 4749.0, 1558.0, 9186.0, 2514.0, 4803.0, 2302.0, 1354.0, 1296.0, 3038.0, 1673.0, 1484.0, 1829.0, 2516.0, 1428.0, 3444.0] steps, [Burned Calorories]: [249.0, 358.0, 110.0, 553.0, 166.0, 360.0, 151.0, 89.0, 106.0, 181.0, 112.0, 92.0, 111.0, 162.0, 106.0, 228.0] calories, [Resting Heart Rate]: [69.24172306060791, 67.66982841491699, 0.0, 67.9207763671875, 0.0, 68.34416770935059, 70.25581932067871, 70.01177501678467, 70.30767440795898, 70.99947261810303, 0.0, 71.54755401611328, 69.25142478942871, 68.35766220092773] beats/min, [SleepMinutes]: [788.0, 590.0, 441.0, 429.0, 487.0, 511.0, 449.0, 544.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 3."
+    },
+    {
+        "index": 879,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [2217.0, 1703.0, 3105.0, 1670.0, 2476.0, 2519.0, 1432.0, 4056.0, 1502.0, 8223.0, 1470.0, 1394.0, 1668.0, 997.0] steps, [Burned Calorories]: [242.0, 186.0, 341.0, 164.0, 274.0, 283.0, 165.0, 486.0, 190.0, 1197.0, 194.0, 180.0, 193.0, 107.0] calories, [Resting Heart Rate]: [52.256792068481445, 51.522735595703125, 51.10006046295166, 52.19623851776123, 51.04134941101074, 50.822875022888184, 51.163947105407715, 53.30293560028076, 54.84496307373047, 55.253294944763184, 55.9315185546875, 54.52877616882324, 54.61709690093994, 53.060065269470215] beats/min, [SleepMinutes]: [385.0, 343.0, 306.0, 418.0, 456.0, 364.0, 304.0, 322.0, 361.0, 358.0, 414.0, 378.0, 408.0, 404.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 6."
+    },
+    {
+        "index": 579,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [3479.0, 3412.0, 3519.0, 3606.0, 2354.0, 1975.0, 3034.0, 2354.0, 2546.0, 4751.0, 2424.0, 2849.0, 2449.0, 7784.0, 2775.0, 4241.0, 5269.0, 2500.0, 9498.0, 2745.0, 2556.0, 1569.0, 4610.0, 2401.0, 3067.0, 3079.0] steps, [Burned Calorories]: [206.0, 223.0, 247.0, 255.0, 178.0, 161.0, 247.0, 171.0, 194.0, 325.0, 187.0, 210.0, 192.0, 514.0, 215.0, 327.0, 317.0, 185.0, 640.0, 233.0, 194.0, 119.0, 346.0, 166.0, 210.0, 224.0] calories, [Resting Heart Rate]: [62.206122398376465, 62.06620788574219, 62.00037097930908, 61.58976078033447, 61.62771511077881, 61.47603130340576, 60.81465148925781, 0.0, 0.0, 61.34584999084473, 62.22507190704346, 62.00524711608887, 62.388023376464844, 63.942527770996094] beats/min, [SleepMinutes]: [645.0, 649.0, 529.0, 613.0, 610.0, 669.0, 563.0, 513.0, 585.0, 532.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 6."
+    },
+    {
+        "index": 559,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [3162.0, 2342.0, 1800.0, 2423.0, 2333.0, 6283.0, 1791.0, 2534.0, 2004.0, 2259.0, 1846.0, 8088.0, 2225.0, 8057.0, 4790.0, 3038.0, 1584.0, 1569.0, 5227.0, 2395.0, 1802.0, 2279.0, 2593.0, 2345.0, 6344.0, 1537.0, 1625.0, 4282.0, 2477.0, 2783.0, 2221.0, 1960.0, 2169.0, 1848.0, 7925.0] steps, [Burned Calorories]: [222.0, 173.0, 125.0, 174.0, 168.0, 408.0, 142.0, 192.0, 215.0, 177.0, 144.0, 538.0, 152.0, 518.0, 375.0, 234.0, 112.0, 113.0, 382.0, 179.0, 123.0, 175.0, 193.0, 172.0, 443.0, 135.0, 117.0, 296.0, 176.0, 212.0, 156.0, 147.0, 159.0, 143.0, 508.0] calories, [Resting Heart Rate]: [67.21428489685059, 65.89617347717285, 65.29419708251953, 64.37614440917969, 64.05546283721924, 66.48653888702393, 66.13677883148193, 65.49364948272705, 65.72141361236572, 64.92607879638672, 64.8047456741333, 64.4537935256958, 65.00059700012207, 64.69979572296143] beats/min, [SleepMinutes]: [76.0, 491.0, 79.0, 163.0, 496.0, 418.0, 565.0, 687.0, 171.0, 614.0, 614.0, 587.0, 356.0, 69.0, 574.0, 64.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 6."
+    },
+    {
+        "index": 728,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1834.0, 4552.0, 1047.0, 1521.0, 1296.0, 1167.0, 1220.0] steps, [Burned Calorories]: [156.0, 379.0, 141.0, 139.0, 118.0, 105.0, 101.0] calories, [Resting Heart Rate]: [55.52332305908203, 55.138407707214355, 55.389580726623535, 55.2614049911499, 54.96061992645264, 54.36319637298584, 54.016783714294434, 53.526339530944824, 54.02453327178955, 54.75826358795166, 54.3559513092041, 54.47832489013672, 54.04421043395996, 53.42056369781494] beats/min, [SleepMinutes]: [464.0, 572.0, 556.0, 426.0, 481.0, 453.0, 553.0, 516.0, 627.0, 621.0, 595.0, 625.0, 581.0, 541.0] minutes, [Mood]: 4 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 4."
+    },
+    {
+        "index": 488,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1677.0, 2843.0, 2423.0, 2583.0, 2668.0, 2611.0, 2708.0, 4208.0, 407.0, 2559.0, 2422.0, 2093.0, 2176.0, 1761.0, 2033.0, 1902.0, 1367.0, 1866.0, 2997.0, 6092.0, 4982.0, 1970.0, 3118.0, 2206.0, 326.0, 2053.0, 2480.0, 1726.0, 2555.0, 2402.0, 2740.0] steps, [Burned Calorories]: [174.0, 286.0, 194.0, 195.0, 204.0, 207.0, 210.0, 320.0, 396.0, 209.0, 183.0, 153.0, 154.0, 162.0, 146.0, 155.0, 130.0, 136.0, 233.0, 508.0, 429.0, 160.0, 294.0, 154.0, 273.0, 157.0, 185.0, 178.0, 208.0, 180.0, 286.0] calories, [Resting Heart Rate]: [66.18476390838623, 64.53385543823242, 62.88513374328613, 64.19821357727051, 62.988253593444824, 61.454726219177246, 61.37740993499756, 62.077860832214355, 62.02260398864746, 61.950029373168945, 62.066633224487305, 63.27063179016113, 63.38948154449463, 0.0] beats/min, [SleepMinutes]: [726.0, 145.0, 564.0, 479.0, 64.0, 472.0, 598.0, 90.0, 634.0, 549.0, 517.0, 68.0, 706.0, 428.0, 657.0, 463.0, 462.0, 585.0] minutes, [Mood]: 4 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 8."
+    },
+    {
+        "index": 489,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [2423.0, 2583.0, 2668.0, 2611.0, 2708.0, 4208.0, 407.0, 2559.0, 2422.0, 2093.0, 2176.0, 1761.0, 2033.0, 1902.0, 1367.0, 1866.0, 2997.0, 6092.0, 4982.0, 1970.0, 3118.0, 2206.0, 326.0, 2053.0, 2480.0, 1726.0, 2555.0, 2402.0, 2740.0] steps, [Burned Calorories]: [194.0, 195.0, 204.0, 207.0, 210.0, 320.0, 396.0, 209.0, 183.0, 153.0, 154.0, 162.0, 146.0, 155.0, 130.0, 136.0, 233.0, 508.0, 429.0, 160.0, 294.0, 154.0, 273.0, 157.0, 185.0, 178.0, 208.0, 180.0, 286.0] calories, [Resting Heart Rate]: [64.53385543823242, 62.88513374328613, 64.19821357727051, 62.988253593444824, 61.454726219177246, 61.37740993499756, 62.077860832214355, 62.02260398864746, 61.950029373168945, 62.066633224487305, 63.27063179016113, 63.38948154449463, 0.0, 0.0] beats/min, [SleepMinutes]: [145.0, 564.0, 479.0, 64.0, 472.0, 598.0, 90.0, 634.0, 549.0, 517.0, 68.0, 706.0, 428.0, 657.0, 463.0, 462.0, 585.0] minutes, [Mood]: 4 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 8."
+    },
+    {
+        "index": 347,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [1295.0, 1513.0, 3119.0, 3726.0, 7811.0, 8014.0, 1658.0, 1351.0, 6357.0, 1652.0, 5337.0, 4947.0, 9961.0, 8436.0, 1698.0, 5085.0, 4870.0, 5001.0, 5808.0, 1396.0, 5161.0, 1448.0, 6086.0, 6643.0, 4460.0, 2055.0, 6334.0, 2576.0, 1765.0, 11288.0, 8152.0, 2051.0, 2349.0] steps, [Burned Calorories]: [105.0, 162.0, 301.0, 333.0, 782.0, 998.0, 150.0, 606.0, 559.0, 156.0, 487.0, 452.0, 1320.0, 845.0, 169.0, 536.0, 478.0, 430.0, 537.0, 677.0, 520.0, 160.0, 565.0, 613.0, 415.0, 188.0, 681.0, 297.0, 702.0, 1196.0, 822.0, 177.0, 246.0] calories, [Resting Heart Rate]: [47.39398193359375, 50.02049160003662, 48.11166572570801, 47.61575126647949, 46.5058708190918, 48.14466667175293, 48.56175518035889, 51.05933380126953, 52.17962646484375, 50.31559658050537, 47.915748596191406, 46.962928771972656, 49.073957443237305, 47.86138916015625] beats/min, [SleepMinutes]: [391.0, 359.0, 450.0, 446.0, 442.0, 468.0, 412.0, 474.0, 411.0, 472.0, 159.0, 481.0, 434.0, 148.0, 283.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 5."
+    },
+    {
+        "index": 588,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [2500.0, 9498.0, 2745.0, 2556.0, 1569.0, 4610.0, 2401.0, 3067.0, 3079.0, 1978.0, 2537.0, 9305.0, 5833.0, 4979.0, 5947.0, 1257.0, 1852.0, 2120.0, 2984.0, 4456.0, 4438.0, 2879.0, 12309.0, 6463.0] steps, [Burned Calorories]: [185.0, 640.0, 233.0, 194.0, 119.0, 346.0, 166.0, 210.0, 224.0, 136.0, 203.0, 638.0, 397.0, 293.0, 435.0, 97.0, 144.0, 161.0, 213.0, 338.0, 311.0, 214.0, 818.0, 442.0] calories, [Resting Heart Rate]: [62.22507190704346, 62.00524711608887, 62.388023376464844, 63.942527770996094, 63.73527431488037, 62.80241012573242, 61.242576599121094, 61.66065216064453, 61.89365005493164, 61.36636257171631, 59.5143928527832, 59.66343307495117, 0.0, 59.57587242126465] beats/min, [SleepMinutes]: [513.0, 585.0, 532.0, 410.0, 406.0, 354.0, 583.0, 583.0, 618.0, 514.0] minutes, [Mood]: 3 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 6."
+    },
+    {
+        "index": 198,
+        "task": "readiness",
+        "instruction": "You are a personalized healthcare agent trained to predict readiness score which ranges from 0 to 10 based on physiological data and user information.",
+        "question": "The recent 14-days sensor readings show: [Steps]: [2223.0, 2160.0, 892.0, 1858.0] steps, [Burned Calorories]: [169.0, 164.0, 84.0, 147.0] calories, [Resting Heart Rate]: [63.4669303894043, 64.84911155700684, 65.60495948791504, 65.19553184509277, 64.71516513824463, 64.67836952209473, 65.35145664215088, 65.22792339324951, 65.66787052154541, 66.94334697723389, 68.18885040283203, 70.4347152709961, 70.72243881225586, 72.97884845733643] beats/min, [SleepMinutes]: [379.0, 402.0, 571.0, 565.0, 471.0, 413.0, 562.0, 554.0, 413.0, 491.0, 444.0, 326.0, 525.0, 536.0] minutes, [Mood]: 4 out of 5; What would be the predicted readiness?",
+        "answer": "The predicted readiness level is 3."
+    }
+]
